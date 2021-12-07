@@ -1,0 +1,3 @@
+ 
+Changing the contents of this directory or the files within 
+will probably break some java tests.

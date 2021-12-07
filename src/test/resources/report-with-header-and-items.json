@@ -1,0 +1,179 @@
+{
+    "Report_Header": {
+        "Report_Name": "IRUS Custom Item Master Report for OAPEN DSpace",
+        "Report_ID": "OAPEN_IR",
+        "Release": "5",
+        "Institution_Name": "OAPEN Foundation",
+        "Institution_ID": "",
+        "Report_Filters": {
+            "Begin_Date": "2020-04-01",
+            "End_Date": "2020-04-30",
+            "Platform": "215 - OAPEN DSpace",
+            "OAPEN_Publisher_UUID": "bf3aad86-19af-41e9-9504-d166b1caff10"
+        },
+        "Report_Attributes": {
+            "Attributes_To_Show": "Country|Client_IP"
+        },
+        "Created": "2021-11-12T19:43:09Z",
+        "Created_By": "IRUS on behalf of OAPEN Foundation",
+        "API_Version": "2.1"
+    },
+    "Report_Items": [
+        {
+            "Item": "Ancient harp seal hunters of Disko Bay (Vol. 330):Subsistence and settlement at the Saqqaq culture site Qeqertasussuk",
+            "Publisher": "Museum Tusculanum Press",
+            "Publisher_ID": "bf3aad86-19af-41e9-9504-d166b1caff10",
+            "Authors": "Morten Meldgaard,",
+            "DOI": "10.26530/OAPEN_342353",
+            "ISBN": "9788763530675",
+            "URI": "http://library.oapen.org/handle/20.500.12657/34945",
+            "Item_Type": "Book",
+            "YOP": "2004",
+            "Platform": "OAPEN DSpace",
+            "IRUS_Item_ID": "8607752",
+            "Performance_Instances": [
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "CA",
+                        "Country": "Canada"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 1,
+                        "Total_Item_Requests": 1,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "SG",
+                        "Country": "Singapore"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 2,
+                        "Total_Item_Requests": 2,
+                        "Unique_Item_Investigations": 2,
+                        "Unique_Item_Requests": 2
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "US",
+                        "Country": "United States"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 3,
+                        "Total_Item_Requests": 3,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "US",
+                        "Country": "United States"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 1,
+                        "Total_Item_Requests": 1,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "US",
+                        "Country": "United States"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 5,
+                        "Total_Item_Requests": 5,
+                        "Unique_Item_Investigations": 3,
+                        "Unique_Item_Requests": 3
+                    }
+                }
+            ]
+        },
+        {
+            "Item": "Animaux domestiques dans la littérature narrative française au Moyen Âge",
+            "Publisher": "Museum Tusculanum Press",
+            "Publisher_ID": "bf3aad86-19af-41e9-9504-d166b1caff10",
+            "Authors": "Jens N. Faaborg,",
+            "DOI": "10.26530/OAPEN_353624",
+            "ISBN": "9788763504645",
+            "URI": "http://library.oapen.org/handle/20.500.12657/34836",
+            "Item_Type": "Book",
+            "YOP": "2006",
+            "Platform": "OAPEN DSpace",
+            "IRUS_Item_ID": "8604635",
+            "Performance_Instances": [
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "BE",
+                        "Country": "Belgium"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 2,
+                        "Total_Item_Requests": 2,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "IT",
+                        "Country": "Italy"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 1,
+                        "Total_Item_Requests": 1,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "NO",
+                        "Country": "Norway"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 1,
+                        "Total_Item_Requests": 1,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                },
+                {
+                    "Event_Month": "2020-04",
+                    "Client_IP": "1.2.3.4",
+                    "Country": {
+                        "Country_Code": "US",
+                        "Country": "United States"
+                    },
+                    "Metric_Type_Counts": {
+                        "Total_Item_Investigations": 1,
+                        "Total_Item_Requests": 1,
+                        "Unique_Item_Investigations": 1,
+                        "Unique_Item_Requests": 1
+                    }
+                }
+            ]
+        }    
+    ]
+}    

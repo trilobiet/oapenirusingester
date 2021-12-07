@@ -1,0 +1,5543 @@
+{
+  "Report_Header": {
+    "Report_Name": "IRUS Custom Item Master Report for OAPEN DSpace",
+    "Report_ID": "OAPEN_IR",
+    "Release": "5",
+    "Institution_Name": "OAPEN Foundation",
+    "Institution_ID": "",
+    "Report_Filters": {
+      "Begin_Date": "2020-04-01",
+      "End_Date": "2020-04-30",
+      "Platform": "215 - OAPEN DSpace",
+      "Country": "Luxembourg"
+    },
+    "Report_Attributes": {
+      "Attributes_To_Show": "Country|Client_IP"
+    },
+    "Created": "2021-11-24T09:30:40Z",
+    "Created_By": "IRUS on behalf of OAPEN Foundation",
+    "API_Version": "2.1"
+  },
+  "Report_Items": [
+    {
+      "Item": "Authority control",
+      "Publisher": "Firenze University Press",
+      "Publisher_ID": "bf65d21a-78e5-4ba2-983a-dbfa90962870",
+      "Authors": "Tillet, Barbara B.",
+      "DOI": "10.26530/OAPEN_356365",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34760",
+      "Item_Type": "Book",
+      "YOP": "2003",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600255",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Co-Production and Co-Creation",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Brandsen, Taco; Steen, Trui; Verschuere, Bram",
+      "ISBN": "9781138700116",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25001",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604587",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Dal suono alla parola",
+      "Publisher": "Firenze University Press",
+      "Publisher_ID": "bf65d21a-78e5-4ba2-983a-dbfa90962870",
+      "Authors": "Salvadori, Beatrice",
+      "DOI": "10.26530/OAPEN_356377",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34748",
+      "Item_Type": "Book",
+      "YOP": "2004",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601600",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Ebrei nella Terraferma veneta del Quattrocento",
+      "Publisher": "Firenze University Press",
+      "Publisher_ID": "bf65d21a-78e5-4ba2-983a-dbfa90962870",
+      "Authors": "Varanini, Gian Maria",
+      "DOI": "10.26530/OAPEN_351984",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34845",
+      "Item_Type": "Book",
+      "YOP": "2005",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607035",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Endocrinologie et communications cellulaires",
+      "Publisher": "EDP SCIENCES",
+      "Publisher_ID": "72a84c7e-1385-4e97-8aa9-11c618327100",
+      "Authors": "Verdetti, Jean",
+      "DOI": "10.26530/OAPEN_519667",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33243",
+      "Item_Type": "Book",
+      "YOP": "2001",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643626",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Geo-didattiche per il futuro. La geografia alla prova delle competenze",
+      "Publisher": "FrancoAngeli",
+      "Publisher_ID": "e2ddfb5e-9202-4851-8afe-1e09b020b018",
+      "Authors": "Gilardi, Thomas",
+      "ISBN": "9788891756299",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30595",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606580",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Giovani a tempo indeterminato. Valori e atteggiamenti dei giovani romani",
+      "Publisher": "FrancoAngeli",
+      "Publisher_ID": "e2ddfb5e-9202-4851-8afe-1e09b020b018",
+      "Authors": "Di Franco, Giovanni",
+      "ISBN": "9788891756404",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30594",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601900",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "In azione",
+      "Publisher": "FrancoAngeli",
+      "Publisher_ID": "e2ddfb5e-9202-4851-8afe-1e09b020b018",
+      "Authors": "Del Bianco, Noemi",
+      "ISBN": "9788891785039",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23638",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603414",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Körperphantasien",
+      "Publisher": "innsbruck university press",
+      "Publisher_ID": "7e4aa047-ebd5-4269-b6c8-a86925324b93",
+      "Authors": "Beinsteiner, Andreas; Kohn, Tanja",
+      "ISBN": "9783903122130",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29664",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599882",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Lo sviluppo professionale docente dalle competenze alla capacitazione",
+      "Publisher": "FrancoAngeli",
+      "Publisher_ID": "e2ddfb5e-9202-4851-8afe-1e09b020b018",
+      "Authors": "Urbani, Chiara",
+      "ISBN": "9788891767042",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29997",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606650",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Medien und Glaubwürdigkeit",
+      "Publisher": "innsbruck university press",
+      "Publisher_ID": "7e4aa047-ebd5-4269-b6c8-a86925324b93",
+      "Authors": "Mauler, Sandra; Ortner, Heike; Pfeiffenberger, Ulrike",
+      "ISBN": "9783903122949",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29668",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600414",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 3,
+            "Total_Item_Requests": 3,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Soziale Arbeit und die Soziale Frage",
+      "Publisher": "Seismo",
+      "Publisher_ID": "2a4e97ae-726c-4086-a24b-d4536718a4a8",
+      "Authors": "Fontanellaz, Barbara; Reutlinger, Christian; Stiehler, Steve",
+      "ISBN": "9783037771839",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25256",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604910",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "TASTE",
+      "Publisher": "University of Westminster Press",
+      "Publisher_ID": "2725c638-53f3-4872-9824-99c3555366f3",
+      "Authors": "Pavoni, Andrea; Mandic, Danilo; Nirta, Caterina; Philippopoulos-Mihalopoulos, Andreas",
+      "ISBN": "9781911534334",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29563",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601645",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Vigilantism against Migrants and Minorities",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Bjørgo, Tore; Mareš, Miroslav",
+      "ISBN": "9781138493803",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23655",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600591",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Von Körpermärkten",
+      "Publisher": "innsbruck university press",
+      "Publisher_ID": "7e4aa047-ebd5-4269-b6c8-a86925324b93",
+      "Authors": "Exenberger, Andreas; Nussbaumer, Josef",
+      "ISBN": "9783902571748",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29679",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601891",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "«Die Zeitalter werden besichtigt»",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "von Glasenapp, Gabriele; Kagelmann, Andre; Giesa, Felix",
+      "ISBN": "9783653971651",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27274",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600587",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "\"Ob Dir es sauer wird mit Deiner Nahrung und Ackerwerk, das laß Dich nicht verdrießen, denn Gott hat es also geschaffen\" - Gottfreid Dietrich Wilhelm Berthold (1854 - 1937) Ein Beitrag zur Geschichte der Biologie an der Georgia Augusta Göttingen",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Wissemann, Volker",
+      "DOI": "10.17875/gup2012-698",
+      "ISBN": "9783863950224",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32488",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603053",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "A Usable Collection: Essays in Honour of Jaap Kloosterman on Collecting Social History",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Lucassen, Jan; Sanders, Huub; Blok, Aad",
+      "DOI": "10.26530/OAPEN_496214",
+      "ISBN": "9789089646880",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33380",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604673",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Affective Justice",
+      "Publisher": "Duke University Press",
+      "Publisher_ID": "f0d6aaef-4159-4e01-b1ea-a7145b2ab14b",
+      "Authors": "Clarke, Kamari Maxine",
+      "DOI": "10.1215/9781478090304",
+      "ISBN": "9781478090304",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22290",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601665",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Allemaal beestjes. Mortaliteit en morbiditeit in Vlaanderen, 18de-20ste eeuw",
+      "Publisher": "Academia Press",
+      "Publisher_ID": "76cb5309-2a30-44e7-bc8c-7892cd1fa38c",
+      "Authors": "Devos, Isabelle",
+      "DOI": "10.26530/OAPEN_365396",
+      "ISBN": "9789038209043",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34701",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643745",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Ausgezeichnet! - Zur Konstituierung kulturellen Eigentums durch geografische Herkunftsangaben",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "May, Sarah,",
+      "DOI": "10.17875/gup2016-1005",
+      "ISBN": "9783863952891",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31834",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8609333",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "BSE, Vogelgrippe &amp; Co.",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Philipps, Axel",
+      "DOI": "10.14361/9783839409534",
+      "ISBN": "9783839409534",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22769",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602161",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Bats in the Anthropocene: Conservation of Bats in a Changing World",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Voigt, Christian C.; Kingston, Tigga",
+      "DOI": "10.1007/978-3-319-25220-9",
+      "ISBN": "9783319252186",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28130",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600992",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Bedeutsame Momente im Coaching",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Wegener, Robert",
+      "DOI": "10.1007/978-3-658-25687-6",
+      "ISBN": "9783658256876",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23148",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605916",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Beitrag zur Vorbemessung der Biegeverstärkung von Stahlbetonbauteilen mit Rechteckquerschnitt mittels aufgeklebten CFK-Lamellen",
+      "Publisher": "HTWK Leipzig - OA-Hochschulverlag",
+      "Publisher_ID": "6e42ec5b-81bb-4e6b-88fe-57148bc7bab7",
+      "Authors": "Stiehl, Cevin",
+      "DOI": "10.33968/9783966270021-00",
+      "ISBN": "9783966270021",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22498",
+      "Item_Type": "Book",
+      "YOP": "2020",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600088",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Bibliotheken gestalten Zukunft - Kooperative Wege zur Digitalen Bibliothek ; Dr. Friedrich Geißelmann zum 65. Geburtstag",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Hutzler, Evelinde; Schröder, Albert; Schweikl, Gabriele",
+      "DOI": "10.17875/gup2008-445",
+      "ISBN": "9783940344434",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32536",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603874",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Big Data in Organizations and the Role of Human Resource Management",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "M. Scholz, Tobias",
+      "DOI": "10.3726/b10907",
+      "ISBN": "9783631718902",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31692",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600710",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Britishness, belonging and citizenship",
+      "Publisher": "Policy Press",
+      "Publisher_ID": "f394f44e-e957-4b77-91b6-32fe9c22978a",
+      "Authors": "Prabhat, Devyani",
+      "DOI": "10.1332/9781447344506",
+      "ISBN": "9781447344506",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30278",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600425",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "China: A New Model for Growth and Development",
+      "Publisher": "ANU Press",
+      "Publisher_ID": "ddc8cc3f-dd57-40ef-b8d5-06f839686b71",
+      "Authors": "Garnaut, Ross; Fang, Cai; Song, Ligang",
+      "DOI": "10.26530/OAPEN_459949",
+      "ISBN": "9781921666483",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33535",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606442",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Close Reading with Computers",
+      "Publisher": "Stanford University Press",
+      "Publisher_ID": "6b2b1871-a4f5-4d52-b611-31fc51dbcdce",
+      "Authors": "Eve, Martin Paul",
+      "DOI": "10.21627/9781503609372",
+      "ISBN": "9781503609372",
+      "URI": "http://library.oapen.org/handle/20.500.12657/36879",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601285",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Cuba in the World, the World in Cuba",
+      "Publisher": "Firenze University Press",
+      "Publisher_ID": "bf65d21a-78e5-4ba2-983a-dbfa90962870",
+      "Authors": "Basosi, Duccio",
+      "DOI": "10.26530/OAPEN_356398",
+      "ISBN": "9788884539625",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34727",
+      "Item_Type": "Book",
+      "YOP": "2009",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601082",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Decriminalising Abortion in the UK",
+      "Publisher": "Policy Press",
+      "Publisher_ID": "f394f44e-e957-4b77-91b6-32fe9c22978a",
+      "Authors": "Sheldon, Sally; Wellings , Kaye",
+      "DOI": "10.2307/j.ctv10tq4d2",
+      "ISBN": "9781447354024",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22301",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602246",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Democratic inclusion",
+      "Publisher": "Manchester University Press",
+      "Publisher_ID": "6110b9b4-ba84-42ad-a0d8-f8d877957cdd",
+      "Authors": "Bauböck, Rainer",
+      "DOI": "10.7765/9781526105257",
+      "ISBN": "9781526105257",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27436",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606684",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Die Ökologie der Literatur",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Hofer, Stefan",
+      "DOI": "10.14361/9783839407530",
+      "ISBN": "9783839407530",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22642",
+      "Item_Type": "Book",
+      "YOP": "2007",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607880",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Different Dispatches",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Humphries, David T.",
+      "DOI": "10.4324/9780203959848",
+      "ISBN": "9780203959848",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24271",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600435",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Droits et voix - Rights and Voices",
+      "Publisher": "University of Ottawa Press / Les Presses de l’Université d’Ottawa",
+      "Publisher_ID": "a1e2b726-4e2b-4a68-bed3-0d2f3ac2a876",
+      "Authors": "Vanhamme, Françoise",
+      "DOI": "10.26530/OAPEN_579632",
+      "ISBN": "9782760319103",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32954",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603783",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "El Caribe holandés",
+      "Publisher": "Editorial José Marti",
+      "Publisher_ID": "86c70d20-e91d-4d9b-af2d-07e471e45244",
+      "Authors": "Oostindie, Gert",
+      "DOI": "10.26530/OAPEN_530750",
+      "ISBN": "9789590905902",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33227",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643625",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Erdbeerpflücker, Spargelstecher, Erntehelfer",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Becker, Jörg",
+      "DOI": "10.14361/9783839409466",
+      "ISBN": "9783839409466",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22650",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603505",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Esercito, istituzioni, territorio. Alloggiamenti militari e «case herme» nello Stato di Milano (secoli XVI e XVII)",
+      "Publisher": "Firenze University Press",
+      "Publisher_ID": "bf65d21a-78e5-4ba2-983a-dbfa90962870",
+      "Authors": "Alessandro, Buono",
+      "DOI": "10.26530/OAPEN_343708",
+      "ISBN": "9788884539472",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34916",
+      "Item_Type": "Book",
+      "YOP": "2009",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643874",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 8,
+            "Total_Item_Requests": 8,
+            "Unique_Item_Investigations": 4,
+            "Unique_Item_Requests": 4
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Established and Outsiders at the Same Time - Self-Images and We-Images of Palestinians in the West Bank and in Israel",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Rosenthal, Gabriele,",
+      "DOI": "10.17875/gup2016-997",
+      "ISBN": "9783863952860",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31899",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603882",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "European Studies and Europe: Twenty Years of Euroculture",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "van der Waal, Margriet,",
+      "DOI": "10.17875/gup2019-1225",
+      "ISBN": "9783863954314",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22329",
+      "Item_Type": "Book",
+      "YOP": "2020",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603405",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Euthanasie",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Weyers, Heleen",
+      "DOI": "10.5117/9789053566473",
+      "ISBN": "9789053566473",
+      "URI": "http://library.oapen.org/handle/20.500.12657/35121",
+      "Item_Type": "Book",
+      "YOP": "2004",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601197",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Evidence in Civil Law - Denmark",
+      "Publisher": "Institute for Local Self-Government and Public Procurement Maribor",
+      "Publisher_ID": "cfc0db17-9c85-40be-996a-12c7cc16b807",
+      "Authors": "Herborn, Michael",
+      "DOI": "10.4335/978-961-6842-46-4",
+      "ISBN": "9789616842464",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31985",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604967",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Evidence in Civil Law - Germany",
+      "Publisher": "Institute for Local Self-Government and Public Procurement Maribor",
+      "Publisher_ID": "cfc0db17-9c85-40be-996a-12c7cc16b807",
+      "Authors": "Zeibig, Nicola",
+      "DOI": "10.4335/978-961-6842-49-5",
+      "ISBN": "9789616842495",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31998",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605187",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Exhibiting Cinema in Contemporary Art",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Balsom, Erika",
+      "DOI": "10.26530/OAPEN_442726",
+      "ISBN": "9789089644718",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33914",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599897",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Familien mit multipler Elternschaft",
+      "Publisher": "Verlag Barbara Budrich",
+      "Publisher_ID": "c71f4dcb-6466-4fde-8a25-0516cdd477b8",
+      "Authors": "Bergold, Pia; Buschner, Andrea; Mayer-Lewis, Birgit; Mühling, Tanja",
+      "DOI": "10.3224/84742103",
+      "ISBN": "9783847411215",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25656",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602507",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Frosch und Frankenstein",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Hüppauf, Bernd; Weingart, Peter",
+      "DOI": "10.14361/9783839408926",
+      "ISBN": "9783839408926",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22768",
+      "Item_Type": "Book",
+      "YOP": "2009",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604592",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Gegenwärtiger Rassismus in Deutschland - Zwischen Biologie und kultureller Identität",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Zuber, Johannes,",
+      "DOI": "10.17875/gup2015-790",
+      "ISBN": "9783863951931",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32480",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607181",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Grundfragen des Strafrechts, Rechtsphilosophie und die Reform der Juristenausbildung - Wissenschaftliches Kolloquium aus Anlass des 70. Geburtstages von Prof. Dr. Fritz Loos am 23. Januar 2009",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Koriath, Heinz; Krack, Ralf; Radtke, Henning; Jehle, Jörg-Martin",
+      "DOI": "10.17875/gup2010-192",
+      "ISBN": "9783941875807",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32611",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601038",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Haalt de universiteit 2040? Een Europees perspectief op wereldwijde kansen en bedreigingen",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "van der Zwaan, Bert",
+      "DOI": "10.26530/OAPEN_620650",
+      "ISBN": "9789462984158",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31962",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601071",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Herman Gorter: Poems of 1890, A Selection",
+      "Publisher": "UCL Press",
+      "Publisher_ID": "df73bf94-b818-494c-a8dd-6775b0573bc2",
+      "Authors": "Vincent, Paul (translated by)",
+      "DOI": "10.14324/111.9781910634066",
+      "ISBN": "9781910634059",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33041",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601604",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Het gezicht van de publieke zaak",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Schouten, Steven; den Hoed, Paul; Dijstelbloem, Huub; Wetenschappelijke Raad voor het Regeringsbele,; Holtslag, Jan Willem",
+      "DOI": "10.5117/9789089642622",
+      "ISBN": "9789089642622",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34855",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608361",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Ieder zijn eigen Arnon Grunberg. Vertaling, promotie en receptie in Italië, Spanje, Catalonië, Portugal en Roemenië",
+      "Publisher": "Academia Press",
+      "Publisher_ID": "76cb5309-2a30-44e7-bc8c-7892cd1fa38c",
+      "Authors": "Mertens, Marleen",
+      "DOI": "10.26530/OAPEN_436097",
+      "ISBN": "9789038219042",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34448",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601812",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Impacts et services issus des élevages européens",
+      "Publisher": "éditions Quae",
+      "Publisher_ID": "f3266e68-be04-43a2-896c-b3499f43d67e",
+      "Authors": "Dumont, Bertrand; Dupraz, Pierre; Donnars, Catherine",
+      "DOI": "10.35690/978-2-7592-2705-1",
+      "ISBN": "9782759227051",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23980",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603961",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "In the Lands of the Romanovs",
+      "Publisher": "Open Book Publishers",
+      "Publisher_ID": "23117811-c361-47b4-8b76-2c9b160c9a8b",
+      "Authors": "Cross, Anthony",
+      "DOI": "10.11647/OBP.0042",
+      "ISBN": "9781783740598",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30345",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603241",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Inklusion im Englischunterricht",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "Bongartz, Christiane M.; Rohde, Andreas",
+      "DOI": "10.3726/978-3-653-05268-8",
+      "ISBN": "9783653971873",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27275",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600839",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Inside Installations",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Wharton, Glenn; Scholte, Tatja",
+      "DOI": "10.26530/OAPEN_467012",
+      "ISBN": "9789048513659",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33489",
+      "Item_Type": "Book",
+      "YOP": "2011",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603177",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Integration Processes and Policies in Europe: Contexts, Levels and Actors",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Garcés-Mascareñas, Blanca; Penninx, Rinus",
+      "DOI": "10.1007/978-3-319-21674-4",
+      "ISBN": "9783319216737",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28047",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602504",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Interkulturelles Wissensmanagement",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "Kölling, Marcus",
+      "DOI": "10.3726/b13940",
+      "ISBN": "9783631538609",
+      "URI": "http://library.oapen.org/handle/20.500.12657/26844",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603034",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Internationalizing \"International Communication\"",
+      "Publisher": "University of Michigan Press",
+      "Publisher_ID": "e07ce9b5-7a46-4096-8f0c-bc1920e3d889",
+      "Authors": "Lee, Chin-Chuan",
+      "DOI": "10.3998/nmw.12748916.0001.001",
+      "ISBN": "9780472900145",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24034",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607990",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Interpretive Social Research - An Introduction",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Rosenthal, Gabriele,",
+      "DOI": "10.17875/gup2018-1103",
+      "ISBN": "9783863953744",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27538",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601160",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Katholische Juden? - Eine Ethnografie zu den Xuetes auf Mallorca",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Riemenschneider, Christian,",
+      "DOI": "10.17875/gup2016-956",
+      "ISBN": "9783863952129",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32443",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601470",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Klimawandel in Deutschland: Entwicklung, Folgen, Risiken und Perspektiven",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Brasseur, Guy P.; Jacob, Daniela; Schuck-Zöller, Susanne",
+      "DOI": "10.1007/978-3-662-50397-3",
+      "ISBN": "9783642303814",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27943",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599958",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "L'ère électrique - The Electric Age",
+      "Publisher": "University of Ottawa Press / Les Presses de l’Université d’Ottawa",
+      "Publisher_ID": "a1e2b726-4e2b-4a68-bed3-0d2f3ac2a876",
+      "Authors": "Asselin, Olivier",
+      "DOI": "10.14375/np.9782760307049",
+      "ISBN": "9782760319486",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33271",
+      "Item_Type": "Book",
+      "YOP": "2011",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601195",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Le Droit de traduire",
+      "Publisher": "University of Ottawa Press / Les Presses de l’Université d’Ottawa",
+      "Publisher_ID": "a1e2b726-4e2b-4a68-bed3-0d2f3ac2a876",
+      "Authors": "Basalamah, Salah",
+      "DOI": "10.26530/OAPEN_579633",
+      "ISBN": "9782760317901",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32953",
+      "Item_Type": "Book",
+      "YOP": "2009",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643699",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Learning Ontology Relations by Combining Corpus-Based Techniques and Reasoning on Data from Semantic Web Sources",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "Wohlgenannt, Gerhard",
+      "DOI": "10.3726/b13903",
+      "ISBN": "9783631606513",
+      "URI": "http://library.oapen.org/handle/20.500.12657/26873",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608029",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Magazines, Tourism, and Nation-Building in Mexico",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Lindsay, Claire",
+      "DOI": "10.1007/978-3-030-01003-4",
+      "ISBN": "9783030010034",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22968",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607195",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Making the Medieval Relevant",
+      "Publisher": "De Gruyter",
+      "Publisher_ID": "2b386f62-fc18-4108-bcf1-ade3ed4cf2f3",
+      "Authors": "Kostick, Conor; Jones, Chris; Oschema, Klaus",
+      "DOI": "10.1515/9783110546484",
+      "ISBN": "9783110546316",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23226",
+      "Item_Type": "Book",
+      "YOP": "2020",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603446",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Management Development Through Cultural Diversity",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Lessem, Ronnie",
+      "DOI": "10.4324/9780203982303",
+      "ISBN": "9780203982303",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24196",
+      "Item_Type": "Book",
+      "YOP": "1998",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604912",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Manual on the Human Rights to Safe Drinking Water and Sanitation for Practitioners",
+      "Publisher": "IWA Publishing",
+      "Publisher_ID": "dc3cfe72-8424-48e6-b8e0-fca2844ba38e",
+      "Authors": "Alves, David",
+      "DOI": "10.2166/9781780407449",
+      "ISBN": "9781780407449",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31043",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602432",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Metacognition in Language Learning and Teaching",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Haukås, Åsta; Bjørke, Camilla; Dypedahl, Magne",
+      "DOI": "10.4324/9781351049146",
+      "ISBN": "9781351049146",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24185",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602388",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Metadata for semantic and social applications&lt;br />DC- 2008 Berlin - Proceedings of the 8. International conference on Dublin Core and Metadata Applications",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Greenberg, Jane; Klas, Wolfgang",
+      "DOI": "10.17875/gup2008-446",
+      "ISBN": "9783940344496",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32535",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600812",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Ortsgespräche",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Geppert, Alexander C.T.; Jensen, Uffa; Weinhold, Jörn",
+      "DOI": "10.14361/9783839403129",
+      "ISBN": "9783839403129",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22711",
+      "Item_Type": "Book",
+      "YOP": "2005",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600719",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Politics of Security: British and West German Protest Movements and the Early Cold War 1945-1970",
+      "Publisher": "Oxford University Press",
+      "Publisher_ID": "b9501915-cdee-4f2a-8030-9c0b187854b2",
+      "Authors": "Nehring, Holger",
+      "DOI": "10.1093/acprof:oso/9780199681228.001.0001",
+      "ISBN": "9780199681228",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33830",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599978",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Postmigrantische Visionen",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Hill, Marc; Yildiz, Erol",
+      "DOI": "10.14361/9783839439166",
+      "ISBN": "9783839439166",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28200",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604163",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Public Leadership: Perspectives and practices",
+      "Publisher": "ANU Press",
+      "Publisher_ID": "ddc8cc3f-dd57-40ef-b8d5-06f839686b71",
+      "Authors": "Uhr, John",
+      "DOI": "10.26530/OAPEN_459473",
+      "ISBN": "9781921536311",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33648",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600440",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Regulatory Theory: Foundations and applications",
+      "Publisher": "ANU Press",
+      "Publisher_ID": "ddc8cc3f-dd57-40ef-b8d5-06f839686b71",
+      "Authors": "Drahos, Peter",
+      "DOI": "10.22459/RT.02.2017",
+      "ISBN": "9781760461010",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31596",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "13643627",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Rewilding European Landscapes",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Pereira, Henrique M.; Navarro, Laetitia M.",
+      "DOI": "10.1007/978-3-319-12039-3",
+      "ISBN": "9783319038643",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28102",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600107",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Richard Weiner",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "Widera, Steffi",
+      "DOI": "10.3726/b12688",
+      "ISBN": "9783876908182",
+      "URI": "http://library.oapen.org/handle/20.500.12657/26144",
+      "Item_Type": "Book",
+      "YOP": "2001",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606028",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Safe to be open - study on the protection of research data and recommendations for access and usage",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Guibault, Lucie; Wiebe, Andreas",
+      "DOI": "10.17875/gup2013-160",
+      "ISBN": "9783863951474",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32411",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8609096",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Screen Genealogies",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Buckley, Craig; Campe, Rüdiger; Casetti, Francesco",
+      "DOI": "10.5117/9789463729000",
+      "ISBN": "9789048543953",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23711",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599987",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Screens",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Chateau, Dominique; Moure, José",
+      "DOI": "10.5117/9789462981904",
+      "ISBN": "9789462981904",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32716",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602249",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Shakespeare im Spiegelkabinett - Zur produktiven Vielfalt seiner Rezeption",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Alam, Sarah; Schaff, Barbara",
+      "DOI": "10.17875/gup2016-1002",
+      "ISBN": "9783863952822",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31878",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607120",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Signifying Europe",
+      "Publisher": "Intellect",
+      "Publisher_ID": "dba70200-fc42-4588-b068-f9ec198260f0",
+      "Authors": "Fornäs, Johan",
+      "DOI": "10.26530/OAPEN_1000188",
+      "ISBN": "9781841505213",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29760",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607884",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Soziale Konflikte",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Thiel, Ansgar",
+      "DOI": "10.14361/9783839400210",
+      "ISBN": "9783839400210",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23402",
+      "Item_Type": "Book",
+      "YOP": "2003",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604936",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Sponsoring und Doping - Beendigung von Sponsoringverträgen wegen Verfehlungen des Gesponserten, insbesondere in Dopingfällen",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Schaub, Renate,",
+      "DOI": "10.17875/gup2008-175",
+      "ISBN": "9783940344540",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32624",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602484",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Strategies of Care",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Da Roit, Barbara",
+      "DOI": "10.5117/9789089642240",
+      "ISBN": "9789089642240",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34670",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602183",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Teacher Thinking &amp; Professional Action",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Denicolo, Pam; Kompf, Michael",
+      "DOI": "10.4324/9780203012505",
+      "ISBN": "9780203012505",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24118",
+      "Item_Type": "Book",
+      "YOP": "2005",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608831",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Technik und Kultur",
+      "Publisher": "KIT Scientific Publishing",
+      "Publisher_ID": "44e29711-8d53-496b-85cc-3d10c9469be9",
+      "Authors": "Grunwald, Armin",
+      "DOI": "10.26530/OAPEN_422362",
+      "ISBN": "9783866444676",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34504",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604655",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Cinema of Attractions Reloaded",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Strauven, Wanda",
+      "DOI": "10.5117/9789053569450",
+      "ISBN": "9789053569450",
+      "URI": "http://library.oapen.org/handle/20.500.12657/35197",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601340",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Dynamics of Cultural Borders",
+      "Publisher": "University of Tartu Press",
+      "Publisher_ID": "fed215d9-bf7f-466c-a9f3-5510b4847c64",
+      "Authors": "Tasa, Monika",
+      "DOI": "10.26530/OAPEN_609474",
+      "ISBN": "9789949770823",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32692",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608123",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 3,
+            "Total_Item_Requests": 3,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Indigenous Welfare Economy and the CDEP Scheme",
+      "Publisher": "ANU Press",
+      "Publisher_ID": "ddc8cc3f-dd57-40ef-b8d5-06f839686b71",
+      "Authors": "Sanders, Will",
+      "DOI": "10.26530/OAPEN_459286",
+      "ISBN": "9789751229328",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33720",
+      "Item_Type": "Book",
+      "YOP": "2004",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606379",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The International Criminal Court",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Glasius, Marlies",
+      "DOI": "10.4324/9780203414514",
+      "ISBN": "9780203414514",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24095",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601090",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Last Great American Picture Show",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "King, Noel; Elsaesser, Thomas; Horwath, Alexander",
+      "DOI": "10.5117/9789053566312",
+      "ISBN": "9789053566312",
+      "URI": "http://library.oapen.org/handle/20.500.12657/35116",
+      "Item_Type": "Book",
+      "YOP": "2004",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601780",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Onlife Manifesto: Being Human in a Hyperconnected Era",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Floridi, Luciano",
+      "DOI": "10.1007/978-3-319-04093-6",
+      "ISBN": "9783642363481",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28025",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600765",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Principle of Loyalty in EU Law",
+      "Publisher": "Oxford University Press",
+      "Publisher_ID": "b9501915-cdee-4f2a-8030-9c0b187854b2",
+      "Authors": "Klamert, Marcus",
+      "DOI": "10.1093/acprof:oso/9780199683123.001.0001",
+      "ISBN": "9780199683123",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33483",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599985",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Society for Worldwide Interbank Financial Telecommunication (SWIFT)",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Zachariadis, Markos",
+      "DOI": "10.4324/9781315849324",
+      "ISBN": "9780415631648",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31890",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602738",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The ideology of the extreme right",
+      "Publisher": "Manchester University Press",
+      "Publisher_ID": "6110b9b4-ba84-42ad-a0d8-f8d877957cdd",
+      "Authors": "Mudde, Cas",
+      "DOI": "10.7228/manchester/9780719057939.001.0001",
+      "ISBN": "9780719057939",
+      "URI": "http://library.oapen.org/handle/20.500.12657/35009",
+      "Item_Type": "Book",
+      "YOP": "2002",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602069",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The political philosophy of Jean-Jacques Rousseau: The impossibility of reason",
+      "Publisher": "Manchester University Press",
+      "Publisher_ID": "6110b9b4-ba84-42ad-a0d8-f8d877957cdd",
+      "Authors": "Qvortrup, Mads",
+      "DOI": "10.7228/manchester/9780719065804.001.0001",
+      "ISBN": "9780719065804",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34999",
+      "Item_Type": "Book",
+      "YOP": "2003",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600476",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Trace element supplementation as a management tool for anaerobic digester operation",
+      "Publisher": "IWA Publishing",
+      "Publisher_ID": "dc3cfe72-8424-48e6-b8e0-fca2844ba38e",
+      "Authors": "Mucha, Ana Paula",
+      "DOI": "10.2166/9781780409429",
+      "ISBN": "9781780409429",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30589",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603511",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Umweltgeschichte und Umweltzukunft - Zur gesellschaftlichen Relevanz einer jungen Disziplin Graduiertenkolleg 1024 Interdisziplinäre Umweltgeschichte",
+      "Publisher": "Universitätsverlag Göttingen",
+      "Publisher_ID": "ffaff15c-73ed-45cd-8be1-56a881b51f62",
+      "Authors": "Masius, Patrick; Sparenberg, Ole; Sprenger, Jana",
+      "DOI": "10.17875/gup2009-485",
+      "ISBN": "9783940344694",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32515",
+      "Item_Type": "Book",
+      "YOP": "2009",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604699",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Van natuurlandschap tot risicomaatschappij",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Wusten van der, Herman",
+      "DOI": "10.26530/OAPEN_340100",
+      "ISBN": "9789053567982",
+      "URI": "http://library.oapen.org/handle/20.500.12657/35230",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599903",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Verschwindet die Natur?",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Voss, Martin; Peuker, Birgit",
+      "DOI": "10.14361/9783839405284",
+      "ISBN": "9783839405284",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22776",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600247",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Wissen Macht Tracht",
+      "Publisher": "innsbruck university press",
+      "Publisher_ID": "7e4aa047-ebd5-4269-b6c8-a86925324b93",
+      "Authors": "Neuner-Schatz, Nadja",
+      "DOI": "10.15203/3122-98-7",
+      "ISBN": "9783903122987",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29651",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602111",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Women's writing in contemporary France: New writers, new literatures in the 1990s",
+      "Publisher": "Manchester University Press",
+      "Publisher_ID": "6110b9b4-ba84-42ad-a0d8-f8d877957cdd",
+      "Authors": "Rye, Gill",
+      "DOI": "10.7765/9781526137999",
+      "ISBN": "9781526137999",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34983",
+      "Item_Type": "Book",
+      "YOP": "2003",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606242",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "bricolage 9",
+      "Publisher": "innsbruck university press",
+      "Publisher_ID": "7e4aa047-ebd5-4269-b6c8-a86925324b93",
+      "Authors": "Reckinger, Gilles; Reiners, Diana; Zinn, Dorothy",
+      "DOI": "10.15203/3122-92-5",
+      "ISBN": "9783903122925",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29659",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608811",
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "'The Most Dreadful Visitation': Male Madness in Victorian Fiction",
+      "Publisher": "Liverpool University Press",
+      "Publisher_ID": "4dc2afaf-832c-43bc-9ac6-8ae6b31a53dc",
+      "Authors": "Pedlar, Valerie",
+      "DOI": "10.5949/upo9781846314186",
+      "ISBN": "9780853238393",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34588",
+      "Item_Type": "Book",
+      "YOP": "2006",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600703",
+      "Funders": [
+        {
+          "Funder_Name": "OAPEN-UK",
+          "OAPEN_Funder_UUID": "780772a6-efb4-48c3-b268-5edaad8380c4"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Brokers of Modernity",
+      "Publisher": "Leuven University Press",
+      "Publisher_ID": "91436d3b-fb9a-45e9-8a57-08708b92dcda",
+      "Authors": "Kohlrausch, Martin",
+      "DOI": "10.11116/9789461662545",
+      "ISBN": "9789461662545",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25863",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600612",
+      "Funders": [
+        {
+          "Funder_Name": "KU Leuven",
+          "OAPEN_Funder_UUID": "608fbdcb-bd0a-4d50-9a26-902224692f76"
+        },
+        {
+          "Funder_Name": "Volkswagen Foundation",
+          "OAPEN_Funder_UUID": "67a139a1-dcb6-4ccb-aaad-5dc957ae915d"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 4,
+            "Total_Item_Requests": 4,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 4,
+            "Total_Item_Requests": 4,
+            "Unique_Item_Investigations": 3,
+            "Unique_Item_Requests": 3
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Changing Gender Norms in Islam Between Reason and Revelation",
+      "Publisher": "Verlag Barbara Budrich",
+      "Publisher_ID": "c71f4dcb-6466-4fde-8a25-0516cdd477b8",
+      "Authors": "Bakhshizadeh, Marziyeh",
+      "DOI": "10.3224/86388735",
+      "ISBN": "9783863882983",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29433",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601713",
+      "Funders": [
+        {
+          "Funder_Name": "OGeSoMo",
+          "OAPEN_Funder_UUID": "86da15d3-bf11-4fda-90e1-9d037779812d"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Dutch Atlantic Connections, 1680-1800 : Linking Empires, Bridging Borders",
+      "Publisher": "Brill",
+      "Publisher_ID": "af16fd4b-42a1-46ed-82e8-c5e880252026",
+      "Authors": "Roitman, J.V.",
+      "DOI": "10.26530/OAPEN_613427",
+      "ISBN": "9789004271326",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32183",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602167",
+      "Funders": [
+        {
+          "Funder_Name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+          "OAPEN_Funder_UUID": "da087c60-8432-4f58-b2dd-747fc1a60025"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Food Price Policy in an Era of Market Instability: A Political Economy Analysis",
+      "Publisher": "Oxford University Press",
+      "Publisher_ID": "b9501915-cdee-4f2a-8030-9c0b187854b2",
+      "Authors": "Pinstrup-Andersen, Per",
+      "DOI": "10.1093/acprof:oso/9780198718574.001.0001",
+      "ISBN": "9780198718574",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32080",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603265",
+      "Funders": [
+        {
+          "Funder_Name": "UNU WIDER",
+          "OAPEN_Funder_UUID": "c9be6ad3-6692-452d-a1f3-a3e6c74f0fe2"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Grenzobjekte und Medienforschung",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Leigh Star, Susan",
+      "DOI": "10.14361/9783839431269",
+      "ISBN": "9783839431269",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31015",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604615",
+      "Funders": [
+        {
+          "Funder_Name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "OAPEN_Funder_UUID": "07f61e34-5b96-49f0-9860-c87dd8228f26"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Jahrbuch für Kulturpolitik 2015/16",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Sievers, Norbert; Föhl, Patrick S.; Knoblich, Tobias J.",
+      "DOI": "10.14361/9783839435120",
+      "ISBN": "9783839435120",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31828",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602451",
+      "Funders": [
+        {
+          "Funder_Name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "OAPEN_Funder_UUID": "07f61e34-5b96-49f0-9860-c87dd8228f26"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Lenkung und Ablenkung",
+      "Publisher": "Schwabe Verlag",
+      "Publisher_ID": "05056c87-e14f-4af1-99c0-d38d45fb02b9",
+      "Authors": "Honegger, Serge Brian",
+      "DOI": "10.24894/978-3-7965-3931-2",
+      "ISBN": "9783796539312",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23649",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603357",
+      "Funders": [
+        {
+          "Funder_Name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "OAPEN_Funder_UUID": "07f61e34-5b96-49f0-9860-c87dd8228f26"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Online Dispute Resolution for Consumers in the European Union",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Cortés, Pablo",
+      "DOI": "10.4324/9780203847756",
+      "ISBN": "9780415562072",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34626",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601170",
+      "Funders": [
+        {
+          "Funder_Name": "OAPEN-UK",
+          "OAPEN_Funder_UUID": "780772a6-efb4-48c3-b268-5edaad8380c4"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 4,
+            "Total_Item_Requests": 4,
+            "Unique_Item_Investigations": 3,
+            "Unique_Item_Requests": 3
+          }
+        }
+      ]
+    },
+    {
+      "Item": "At Face Value and Beyond",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Schwärzler, Monika",
+      "ISBN": "9783837629545",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30575",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "101249",
+      "OAPEN_Grant_Program": "KU Select 2017: Backlist Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607186",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Der Filmkomponist Max Steiner (1888-1971)",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Wegele, Peter",
+      "DOI": "10.26530/oapen_453612",
+      "ISBN": "9783205788010",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33844",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "OAPEN_Grant_Number": "D 4305",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607840",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Der österreichische Neoabsolutismus als Verfassungs- und Verwaltugsproblem",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Brandt, Harm-Hinrich",
+      "DOI": "10.26530/oapen_513160",
+      "ISBN": "9783205795803",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33278",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "OAPEN_Grant_Number": "PUB 158",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603142",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Die Sprache",
+      "Publisher": "Edition Praesens",
+      "Publisher_ID": "7c62250f-533a-413d-8c81-eb401c82b030",
+      "Authors": "Bloomfield, Leonard; Ernst, Peter; Luschützky, Hans Christian",
+      "DOI": "10.26530/oapen_477714",
+      "ISBN": "9783706910019",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33414",
+      "Item_Type": "Book",
+      "YOP": "2001",
+      "OAPEN_Grant_Number": "D 3260",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600569",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Die vielsprachige Seele Kakaniens",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Wolf, Michaela",
+      "DOI": "10.26530/oapen_437186",
+      "ISBN": "9783205788294",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34391",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "OAPEN_Grant_Number": "D 4326",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602324",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "European Voices II",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Ahmedaja, Ardian",
+      "DOI": "10.26530/oapen_437226",
+      "ISBN": "9783205787372",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34353",
+      "Item_Type": "Book",
+      "YOP": "2011",
+      "OAPEN_Grant_Number": "D 4246",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601271",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "European Voices III",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Ahmedaja, Ardian",
+      "DOI": "10.26530/oapen_629712",
+      "ISBN": "9783205205135",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31371",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "PUB 398",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599989",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Globalization and Capitalist Geopolitics",
+      "Publisher": "Taylor &amp; Francis",
+      "Publisher_ID": "7b3c7b10-5b1e-40b3-860e-c6dd5197f0bb",
+      "Authors": "Woodley, Daniel",
+      "ISBN": "9780415745055",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31706",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "OAPEN_Grant_Number": "100750",
+      "OAPEN_Grant_Program": "KU Select 2016 Backlist Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602871",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Heimatrecht und Staatsbürgerschaft österreichischer Juden",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Burger, Hannelore",
+      "DOI": "10.26530/oapen_461430",
+      "ISBN": "9783205794950",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33521",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "OAPEN_Grant_Number": "PUB 81",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600936",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "History of Yugoslavia",
+      "Publisher": "Purdue University Press",
+      "Publisher_ID": "3600efb5-b3a3-419f-9e4f-7a6094096815",
+      "Authors": "Calic, Marie-Janin; Geyer, Dona",
+      "ISBN": "9781557538383",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24993",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "102989",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Frontlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600630",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Images of Immigrants and Refugees in Western Europe",
+      "Publisher": "Leuven University Press",
+      "Publisher_ID": "91436d3b-fb9a-45e9-8a57-08708b92dcda",
+      "Authors": "d’Haenens, Leen; Joris, Willem; Heinderyckx, François",
+      "DOI": "10.11116/9789461662811",
+      "ISBN": "9789461662811",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25123",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "OAPEN_Grant_Program": "KU Leuven Fund for Fair Open Access",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601432",
+      "Funders": [
+        {
+          "Funder_Name": "KU Leuven",
+          "OAPEN_Funder_UUID": "608fbdcb-bd0a-4d50-9a26-902224692f76"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Konservierungswissenschaft schreibt Geschichte",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Krack, Elisabeth; Krist, Gabriela",
+      "DOI": "10.26530/oapen_437228",
+      "ISBN": "9783205788591",
+      "URI": "http://library.oapen.org/handle/20.500.12657/34351",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "OAPEN_Grant_Number": "D 4329",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608754",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Kreuzenstein",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Nierhaus, Andreas",
+      "DOI": "10.26530/oapen_508003",
+      "ISBN": "9783205795575",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33292",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "OAPEN_Grant_Number": "PUB 129",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603283",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Les droits de l’enfant. Genèse, institutionnalisation et diffusion (1924-1989)",
+      "Publisher": "Editions Alphil Presses universitaires suisses",
+      "Publisher_ID": "383b93b2-910c-4322-a7c6-4998493f755d",
+      "Authors": "Moody, Zoe",
+      "DOI": "10.26530/OAPEN_624531",
+      "ISBN": "9782889301119",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31859",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "170306",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603759",
+      "Funders": [
+        {
+          "Funder_Name": "Swiss National Science Foundation (SNSF) - OAPEN-CH",
+          "OAPEN_Funder_UUID": "b70636da-dc2d-4755-a37e-360db651c0bf"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Robert Neumann: Mit eigener Feder",
+      "Publisher": "Studien Verlag",
+      "Publisher_ID": "dbad4cf6-785d-4ec0-b191-c1286ab60421",
+      "Authors": "Stadler, Franz",
+      "DOI": "10.26530/oapen_453484",
+      "ISBN": "9783706550819",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33849",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "OAPEN_Grant_Number": "PUB 53",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602955",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Staatlichkeit in der Schweiz Regieren und verwalten vor der neoliberalen Wende",
+      "Publisher": "Chronos Verlag",
+      "Publisher_ID": "1f950e02-f99d-41ce-96af-ab49518dbf62",
+      "Authors": "Criblez, Lucien; Ruoss, Thomas; Rothen, Christina",
+      "DOI": "10.26530/OAPEN_625135",
+      "ISBN": "9783034013635",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31819",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "170335",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605130",
+      "Funders": [
+        {
+          "Funder_Name": "Swiss National Science Foundation (SNSF) - OAPEN-CH",
+          "OAPEN_Funder_UUID": "b70636da-dc2d-4755-a37e-360db651c0bf"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Logic of Invention",
+      "Publisher": "HAU Books",
+      "Publisher_ID": "b74962f8-84f3-4d30-ae61-396a70a5d3b0",
+      "Authors": "Wagner, Roy",
+      "ISBN": "9780999157053",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27354",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "103667",
+      "OAPEN_Grant_Program": "KU Select 2017: Front list Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8607150",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Struggling State",
+      "Publisher": "Temple  University Press",
+      "Publisher_ID": "126074ec-499d-4e24-a17f-09a9c593ec01",
+      "Authors": "Riggan, Jennifer",
+      "ISBN": "9781439912706",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30057",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "103439",
+      "OAPEN_Grant_Program": "KU Round 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600033",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The War Correspondent - Second Edition",
+      "Publisher": "Pluto Press",
+      "Publisher_ID": "e7b13f6b-a18c-4c0b-97b8-d1891104b9c4",
+      "Authors": "McLaughlin, Greg",
+      "DOI": "10.26530/OAPEN_605051",
+      "ISBN": "9781783717583",
+      "URI": "http://library.oapen.org/handle/20.500.12657/32791",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Program": "KU Round 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603435",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Well-being, Sustainability and Social Development",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Grin, John",
+      "DOI": "10.1007/978-3-319-76696-6",
+      "ISBN": "9783319766966",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23001",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "360-69-010",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602512",
+      "Funders": [
+        {
+          "Funder_Name": "FP7 Ideas: European Research Council",
+          "OAPEN_Funder_UUID": "7292b17b-f01a-4016-94d3-d7fb5ef9fb79"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Wien als Festungsstadt im 16. Jahrhundert",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Sonnlechner, Christoph",
+      "DOI": "10.26530/oapen_626456",
+      "ISBN": "9783205202103",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31604",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "PUB 382",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599951",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "ПУТИ РАЗВИТИЯ ЗАПАДНОГО ПЕРЕВОДОВЕДЕНИЯ",
+      "Publisher": "R. Valent",
+      "Publisher_ID": "d9ed3802-acaf-4713-9660-bcb227ec52a4",
+      "Authors": "Prunc, Erich",
+      "DOI": "10.26530/oapen_577790",
+      "ISBN": "9785934394883",
+      "URI": "http://library.oapen.org/handle/20.500.12657/33039",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "OAPEN_Grant_Number": "PUB 9",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599983",
+      "Funders": [
+        {
+          "Funder_Name": "Austrian Science Fund",
+          "OAPEN_Funder_UUID": "26ae1657-c58f-4f1d-a392-585ee75c293e"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "An den Grenzen Europas und des Rechts",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Pichl, Maximilian; Tohidipur, Timo",
+      "DOI": "10.14361/9783839447147",
+      "ISBN": "9783837647143",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25040",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "OAPEN_Grant_Number": "104820",
+      "OAPEN_Grant_Program": "transcript Open Library Politikwissenschaft 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603459",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Armut und Engagement",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Voigtländer, Leiv Eirik",
+      "DOI": "10.14361/9783839431351",
+      "ISBN": "9783837631357",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30487",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "OAPEN_Grant_Number": "103338",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606333",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Bonded Labour",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Damir-Geilsdorf, Sabine; Lindner, Ulrike; Müller, Gesine; Tappe, Oliver; Zeuske, Michael",
+      "DOI": "10.14361/9783839437339",
+      "ISBN": "9783837637335",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25736",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "101955",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Backlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600641",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Charlotte Guillard",
+      "Publisher": "Presses universitaires François-Rabelais (PUFR)",
+      "Publisher_ID": "36e798d4-58f6-460e-bc4d-35353878b81d",
+      "Authors": "Jimenes, Rémi",
+      "DOI": "10.4000/books.pufr.10095",
+      "ISBN": "9782869065239",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24924",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "103207",
+      "OAPEN_Grant_Program": "OpenEdition Books Select 2018: HSS Backlist B",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600584",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Delusions in Context",
+      "Publisher": "Springer Nature",
+      "Publisher_ID": "6c6992af-b843-4f46-859c-f6e9998e40d5",
+      "Authors": "Bortolotti, Lisa",
+      "DOI": "10.1007/978-3-319-97202-2",
+      "ISBN": "9783319972022",
+      "URI": "http://library.oapen.org/handle/20.500.12657/28276",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "616358",
+      "OAPEN_Grant_Program": "FP7 SC39",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600701",
+      "Funders": [
+        {
+          "Funder_Name": "FP7 Ideas: European Research Council",
+          "OAPEN_Funder_UUID": "7292b17b-f01a-4016-94d3-d7fb5ef9fb79"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Die Türkei und das andere Europa",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Küçük, Bülent",
+      "DOI": "10.14361/9783839410127",
+      "ISBN": "9783837610123",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30450",
+      "Item_Type": "Book",
+      "YOP": "2008",
+      "OAPEN_Grant_Number": "103286",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604949",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Die politische Ordnung des Flüchtlingslagers",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Inhetveen, Katharina",
+      "DOI": "10.14361/transcript.9783839413784",
+      "ISBN": "9783837613780",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30454",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "OAPEN_Grant_Number": "103232",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605595",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Environment and Narrative",
+      "Publisher": "The Ohio State University Press",
+      "Publisher_ID": "81dece0b-2c7f-42c9-84d3-58c98f0c33fc",
+      "Authors": "James, Erin; Morel, Eric",
+      "DOI": "10.26818/9780814214206",
+      "ISBN": "9780814214206",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22466",
+      "Item_Type": "Book",
+      "YOP": "2020",
+      "OAPEN_Grant_Number": "103730",
+      "OAPEN_Grant_Program": "KU Select 2019: HSS Frontlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601553",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Frankenstein",
+      "Publisher": "The MIT Press",
+      "Publisher_ID": "f49dea23-efb1-407d-8ac0-6ed2b5cb4b74",
+      "Authors": "Finn, Ed; Guston, David; Robert, Jason Scott",
+      "DOI": "10.26530/oapen_628778",
+      "ISBN": "9780262533287",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31387",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "100403",
+      "OAPEN_Grant_Program": "KU Select 2016 Front List Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599853",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Grenzen der Menschenrechte",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Martinsen, Franziska",
+      "DOI": "10.14361/9783839447406",
+      "ISBN": "9783837647402",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25037",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "OAPEN_Grant_Number": "104823",
+      "OAPEN_Grant_Program": "transcript Open Library Politikwissenschaft 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602016",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Handbuch Poststrukturalistische Perspektiven auf soziale Bewegungen",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Vey, Judith; Leinius, Johanna; Hagemann, Ingmar",
+      "DOI": "10.14361/9783839448793",
+      "ISBN": "9783837648799",
+      "URI": "http://library.oapen.org/handle/20.500.12657/23916",
+      "Item_Type": "Book",
+      "YOP": "2019",
+      "OAPEN_Grant_Number": "104921",
+      "OAPEN_Grant_Program": "transcript Open Library Politikwissenschaft 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601166",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "International Relations",
+      "Publisher": "Verlag Barbara Budrich",
+      "Publisher_ID": "c71f4dcb-6466-4fde-8a25-0516cdd477b8",
+      "Authors": "Spindler, Manuela",
+      "DOI": "10.3224/84740005",
+      "ISBN": "9783847400059",
+      "URI": "http://library.oapen.org/handle/20.500.12657/22471",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "OAPEN_Grant_Number": "104061",
+      "OAPEN_Grant_Program": "KU Select 2019: HSS Backlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600043",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Literaturwissenschaft und Bibliotheken",
+      "Publisher": "V&amp;R unipress GmbH",
+      "Publisher_ID": "3f06ab1d-5450-4f6f-834c-6572e95bd9f4",
+      "Authors": "Alker, Stefan; Hölter, Achim",
+      "DOI": "10.14220/9783737004541",
+      "ISBN": "9783737004541",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29573",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "OAPEN_Grant_Number": "103517",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608325",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Manifeste",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Klatt, Johanna; Lorenz, Robert",
+      "DOI": "10.14361/transcript.9783839416792",
+      "ISBN": "9783837616798",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30408",
+      "Item_Type": "Book",
+      "YOP": "2010",
+      "OAPEN_Grant_Number": "103238",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600925",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Museums in a Digital Culture",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "van den Akker, Chiel; Legêne, Susan",
+      "DOI": "10.1515/9789048524808",
+      "ISBN": "9789048524808",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24462",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "640.004.801",
+      "OAPEN_Grant_Program": "CATCH-Agora",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8608024",
+      "Funders": [
+        {
+          "Funder_Name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+          "OAPEN_Funder_UUID": "da087c60-8432-4f58-b2dd-747fc1a60025"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Muße und Rekursivität in der antiken Briefliteratur",
+      "Publisher": "Mohr Siebeck",
+      "Publisher_ID": "773c36f2-8bde-4e8c-8b8d-7fab7b2879fe",
+      "Authors": "Eickhoff, Franziska C.",
+      "DOI": "10.1628/978-3-16-154539-9",
+      "ISBN": "9783161545382",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27455",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "103618",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605224",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Nature Inc.",
+      "Publisher": "University of Arizona Press",
+      "Publisher_ID": "40b84fbe-c64c-45d0-b80a-f260ee8b8f03",
+      "Authors": "Büscher, Bram; Dressler, Wolfram; Fletcher, Robert",
+      "DOI": "10.2458/azu_uapress_9780816539215",
+      "ISBN": "9780816530953",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25300",
+      "Item_Type": "Book",
+      "YOP": "2014",
+      "OAPEN_Grant_Number": "102402",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Backlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8604061",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Paratextuelle Politik und Praxis",
+      "Publisher": "Böhlau",
+      "Publisher_ID": "7e3faa23-7517-423c-bdf2-8b345f6e39ca",
+      "Authors": "Gerstenbräun-Krug, Martin",
+      "DOI": "10.7767/9783205208396",
+      "ISBN": "9783205208396",
+      "URI": "http://library.oapen.org/handle/20.500.12657/29615",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "103508",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601706",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Punishment and Political Order",
+      "Publisher": "University of Michigan Press",
+      "Publisher_ID": "e07ce9b5-7a46-4096-8f0c-bc1920e3d889",
+      "Authors": "McBride, Keally",
+      "DOI": "10.3998/mpub.133501",
+      "ISBN": "9780472099825",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25921",
+      "Item_Type": "Book",
+      "YOP": "2007",
+      "OAPEN_Grant_Number": "102013",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Backlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8609275",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Race, Ethnicity and Nuclear War",
+      "Publisher": "Liverpool University Press",
+      "Publisher_ID": "4dc2afaf-832c-43bc-9ac6-8ae6b31a53dc",
+      "Authors": "Williams, Paul",
+      "DOI": "10.2307/j.ctt5vjdcf",
+      "ISBN": "9781846317088",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30227",
+      "Item_Type": "Book",
+      "YOP": "2011",
+      "OAPEN_Grant_Number": "101275",
+      "OAPEN_Grant_Program": "KU Select 2017: Backlist Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600564",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Rechte nationaler Minderheiten",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Bielefeldt, Heiner; Lüer, Jörg",
+      "DOI": "10.14361/9783839402412",
+      "ISBN": "9783899422412",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30383",
+      "Item_Type": "Book",
+      "YOP": "2004",
+      "OAPEN_Grant_Number": "103254",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8602171",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Spaces and Identities in Border Regions",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Wille, Christian; Reckinger, Rachel; Kmec, Sonja; Hesse, Markus",
+      "DOI": "10.14361/9783839426500",
+      "ISBN": "9783837626506",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25377",
+      "Item_Type": "Book",
+      "YOP": "2015",
+      "OAPEN_Grant_Number": "101950",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Backlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8603453",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Big Data Agenda",
+      "Publisher": "University of Westminster Press",
+      "Publisher_ID": "2725c638-53f3-4872-9824-99c3555366f3",
+      "Authors": "Richterich, Annika",
+      "DOI": "10.16997/book14",
+      "ISBN": "9781911534723",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30155",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "101385",
+      "OAPEN_Grant_Program": "KU Select 2017: Front list Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8599918",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Dutch and English East India Companies",
+      "Publisher": "Amsterdam University Press",
+      "Publisher_ID": "dd3d1a33-0ac2-4cfe-a101-355ae1bd857a",
+      "Authors": "Mostert, Tristan; Clulow, Adam",
+      "DOI": "10.2307/j.ctv9hvqf2",
+      "ISBN": "9789462983298",
+      "URI": "http://library.oapen.org/handle/20.500.12657/25958",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "102509",
+      "OAPEN_Grant_Program": "KU Select 2018: HSS Frontlist Books",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600625",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 2,
+            "Total_Item_Requests": 2,
+            "Unique_Item_Investigations": 2,
+            "Unique_Item_Requests": 2
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Latin New Testament: A Guide to its Early History, Texts, and Manuscripts",
+      "Publisher": "Oxford University Press",
+      "Publisher_ID": "b9501915-cdee-4f2a-8030-9c0b187854b2",
+      "Authors": "Houghton, H. A. G.",
+      "DOI": "10.1093/acprof:oso/9780198744733.001.0001",
+      "ISBN": "9780198744733",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31592",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "283302",
+      "OAPEN_Grant_Program": "FP7",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8605309",
+      "Funders": [
+        {
+          "Funder_Name": "FP7 Ideas: European Research Council",
+          "OAPEN_Funder_UUID": "7292b17b-f01a-4016-94d3-d7fb5ef9fb79"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "The Unmaking of Home in Contemporary Art",
+      "Publisher": "University of Toronto Press",
+      "Publisher_ID": "4af200cf-cd4b-42da-b77f-53784aeda421",
+      "Authors": "Lauzon, Claudette",
+      "DOI": "10.26530/oapen_628407",
+      "ISBN": "9781442649828",
+      "URI": "http://library.oapen.org/handle/20.500.12657/31401",
+      "Item_Type": "Book",
+      "YOP": "2017",
+      "OAPEN_Grant_Number": "100142",
+      "OAPEN_Grant_Program": "KU Select 2016 Front List Collection",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600227",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Traces numériques. De la production à l'interprétation",
+      "Publisher": "CNRS Editions",
+      "Publisher_ID": "a3a46f37-8f32-4d09-9dc9-35f06277904f",
+      "Authors": "Zlitni, Sami",
+      "DOI": "10.4000/books.editionscnrs.21699",
+      "ISBN": "9782271072399",
+      "URI": "http://library.oapen.org/handle/20.500.12657/24905",
+      "Item_Type": "Book",
+      "YOP": "2013",
+      "OAPEN_Grant_Number": "103181",
+      "OAPEN_Grant_Program": "OpenEdition Books Select 2018: HSS Backlist B",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601786",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Wollstonecraft, Mill, and Women's Human Rights",
+      "Publisher": "Yale University Press",
+      "Publisher_ID": "c659c18b-223e-46c9-952d-3e6aa9f19cc6",
+      "Authors": "Botting, Eileen Hunt",
+      "DOI": "10.26530/OAPEN_605025",
+      "ISBN": "9780300186154",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30049",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "103487",
+      "OAPEN_Grant_Program": "Round 2",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600309",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Zeit- und Alterstopik im Minnesang",
+      "Publisher": "Peter Lang International Academic Publishers",
+      "Publisher_ID": "e927e604-2954-4bf6-826b-d5ecb47c6555",
+      "Authors": "Loleit, Simone; Bein, Thomas",
+      "DOI": "10.3726/b14371",
+      "ISBN": "9783631759554",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27532",
+      "Item_Type": "Book",
+      "YOP": "2018",
+      "OAPEN_Grant_Number": "103640",
+      "OAPEN_Grant_Program": "OGeSoMO",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8601024",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        },
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Zwischenstadtland Schweiz",
+      "Publisher": "transcript Verlag",
+      "Publisher_ID": "b30a6210-768f-42e6-bb84-0e6306590b5c",
+      "Authors": "Devecchi, Lineo Umberto",
+      "DOI": "10.14361/9783839435946",
+      "ISBN": "9783837635942",
+      "URI": "http://library.oapen.org/handle/20.500.12657/30350",
+      "Item_Type": "Book",
+      "YOP": "2016",
+      "OAPEN_Grant_Number": "103368",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8606339",
+      "Funders": [
+        {
+          "Funder_Name": "Schweizerischer Nationalfonds zur Förderung der Wissenschaftlichen Forschung",
+          "OAPEN_Funder_UUID": "07f61e34-5b96-49f0-9860-c87dd8228f26"
+        },
+        {
+          "Funder_Name": "Swiss National Science Foundation (SNSF) - OAPEN-CH",
+          "OAPEN_Funder_UUID": "b70636da-dc2d-4755-a37e-360db651c0bf"
+        },
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Über den Tod",
+      "Publisher": "Mohr Siebeck",
+      "Publisher_ID": "773c36f2-8bde-4e8c-8b8d-7fab7b2879fe",
+      "Authors": "Männlein-Robert, Irmgard; Schelske, Oliver; Erler, Michael",
+      "DOI": "10.1628/978-3-16-156435-2",
+      "ISBN": "9783161519048",
+      "URI": "http://library.oapen.org/handle/20.500.12657/27444",
+      "Item_Type": "Book",
+      "YOP": "2012",
+      "OAPEN_Grant_Number": "103628",
+      "OAPEN_Grant_Program": "KU Open Services",
+      "Platform": "OAPEN DSpace",
+      "IRUS_Item_ID": "8600295",
+      "Funders": [
+        {
+          "Funder_Name": "Knowledge Unlatched",
+          "OAPEN_Funder_UUID": "b818ba9d-2dd9-4fd7-a364-7f305aef7ee9"
+        }
+      ],
+      "Performance_Instances": [
+        {
+          "Event_Month": "2020-04",
+          "Client_IP": "1.2.3.4",
+          "Country": {
+            "Country_Code": "LU",
+            "Country": "Luxembourg"
+          },
+          "Metric_Type_Counts": {
+            "Total_Item_Investigations": 1,
+            "Total_Item_Requests": 1,
+            "Unique_Item_Investigations": 1,
+            "Unique_Item_Requests": 1
+          }
+        }
+      ]
+    }
+  ]
+}
