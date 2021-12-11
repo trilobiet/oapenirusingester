@@ -2,6 +2,14 @@ package org.oapen.irusuk.config;
 
 import org.oapen.irusuk.AppStatus;
 import org.oapen.irusuk.PropertiesAppStatusService;
+import org.oapen.irusuk.dataingestion.EventService;
+import org.oapen.irusuk.dataingestion.ItemService;
+import org.oapen.irusuk.dataingestion.jpa.EventDTO;
+import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
+import org.oapen.irusuk.dataingestion.jpa.JpaEventService;
+import org.oapen.irusuk.dataingestion.jpa.JpaIpLookupService;
+import org.oapen.irusuk.dataingestion.jpa.JpaItemService;
+import org.oapen.irusuk.iplookup.IpLookupService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,6 +40,21 @@ public class AppConfig {
 	
 	@Value("${app.path.app-status}")
 	private String appStatusPath;
+	
+
+	@Bean
+	public ItemService<ItemDTO> itemService() {
+		return new JpaItemService();
+	}
+	@Bean
+	public EventService<EventDTO> eventService() {
+		return new JpaEventService(); 
+	}
+	@Bean
+	public IpLookupService ipLookupService() {
+		return new JpaIpLookupService(); 
+	}
+	
 	
 	@Bean
 	public AppStatus appStatus() {

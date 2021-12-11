@@ -1,35 +1,18 @@
-package org.oapen.irusuk.dataingestion.jpa;
+package org.oapen.irusuk.dataingestion;
 
 import java.time.LocalDate;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.IdClass;
-import javax.persistence.Table;
 
-import org.oapen.irusuk.dataingestion.Event;
-
-
-@Entity(name = "Event")
-@Table(name = "event")
-@IdClass(EventId.class)
-public class EventDTO extends Event  {
+public class Event {
 	
-	/* Combined key of three fields
-	 * See https://www.baeldung.com/jpa-composite-primary-keys */
-	@Id @Column(nullable=false)
 	private String ip;
-	@Id @Column(nullable=false)
 	private LocalDate date;
-	@Id @Column(nullable=false)
 	private String itemId;
-	
 	private String country, countryCode;
 	private String city;
 	private Double latitude, longitude;
 	private Integer requests;
-	
+
 	public String getIp() {
 		return ip;
 	}
@@ -103,7 +86,50 @@ public class EventDTO extends Event  {
 	}
 
 	@Override
-	public String toString() {
-		return "EventDTO [ip=" + ip + ", date=" + date + ", itemId=" + itemId + "]";
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((date == null) ? 0 : date.hashCode());
+		result = prime * result + ((ip == null) ? 0 : ip.hashCode());
+		result = prime * result + ((itemId == null) ? 0 : itemId.hashCode());
+		return result;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Event other = (Event) obj;
+		if (date == null) {
+			if (other.date != null)
+				return false;
+		} else if (!date.equals(other.date))
+			return false;
+		if (ip == null) {
+			if (other.ip != null)
+				return false;
+		} else if (!ip.equals(other.ip))
+			return false;
+		if (itemId == null) {
+			if (other.itemId != null)
+				return false;
+		} else if (!itemId.equals(other.itemId))
+			return false;
+		return true;
+	}
+
+
+	@Override
+	public String toString() {
+		
+		return "Event [itemId=" + itemId 
+				+ ", date=" + date + ", ip=" + ip + "]";
+	}
+
+
+    
 }

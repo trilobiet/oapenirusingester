@@ -11,10 +11,10 @@ public class IpAddressDeserializer extends JsonDeserializer<IpAddress> {
 
 	@Override
 	public IpAddress deserialize(JsonParser p, DeserializationContext ctxt) 
-			throws IOException, JsonProcessingException {
+		throws IOException, JsonProcessingException {
 		
 		String value = p.getValueAsString();
-	    return new IpAddress(value);
+		return new IpAddress(value);
     }
 	
 }

@@ -7,39 +7,59 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.oapen.irusuk.iplookup.IpLocation;
+
 // Read Only, no setters
 @Entity
 @Table(name = "iplocation")
 
-public class IpLocationDTO implements Serializable {
+public class IpLocationDTO extends IpLocation implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
 	@Id
 	@Column(name="IP_FROM")
-	public Long ipFrom;
-	@Column(name="IP_TO")
-	public Long ipTo;
-	@Column(name="COUNTRY_CODE")
-	public String countryCode;
+	private Long ip;
 	@Column(name="COUNTRY_NAME")
-	public String country;
-	@Column(name="REGION")
-	public String region;
+	private String country;
+	@Column(name="COUNTRY_CODE")
+	private String countryCode;
 	@Column(name="CITY")
-	public String city;
+	private String city;
 	@Column(name="LATITUDE")
-	public Double latitude;
+	private Double latitude;
 	@Column(name="LONGITUDE")
-	public Double longitude;
+	private Double longitude;
+	
+	public Long getIp() {
+		return ip;
+	}
+	
+	public String getCountry() {
+		return country;
+	}
+	
+	public String getCountryCode() {
+		return countryCode;
+	}
+	
+	public String getCity() {
+		return city;
+	}
+	
+	public Double getLatitude() {
+		return latitude;
+	}
+	
+	public Double getLongitude() {
+		return longitude;
+	}
 	
 	@Override
 	public String toString() {
-		return "IpLocation [ipFrom=" + ipFrom + ", ipTo=" + ipTo 
-				+ ", countryCode=" + countryCode + ", country="
-				+ country + ", region=" + region + ", city=" + city 
-				+ ", latitude=" + latitude + ", longitude="
-				+ longitude + "]";
+		return "IpLocationDTO [ip=" + ip + ", countryCode=" + countryCode 
+			+ ", city=" + city + ", latitude=" + latitude
+			+ ", longitude=" + longitude + "]";
 	}
-
+	
 }

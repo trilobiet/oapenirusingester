@@ -9,13 +9,17 @@ import java.time.YearMonth;
 import java.util.List;
 
 import org.oapen.irusuk.dataingestion.DataIngester;
-import org.oapen.irusuk.dataingestion.DirectoryScanner;
+import org.oapen.irusuk.dataingestion.EventService;
 import org.oapen.irusuk.dataingestion.IRReportParser;
-import org.oapen.irusuk.dataingestion.jpa.EventRepository;
-import org.oapen.irusuk.dataingestion.jpa.IpLocationRepository;
-import org.oapen.irusuk.dataingestion.jpa.ItemRepository;
+import org.oapen.irusuk.dataingestion.IngestableFileFinder;
+import org.oapen.irusuk.dataingestion.ItemService;
+import org.oapen.irusuk.dataingestion.jpa.DataIngesterImp;
+import org.oapen.irusuk.dataingestion.jpa.EventDTO;
+import org.oapen.irusuk.dataingestion.jpa.IpLocationDTO;
+import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
 import org.oapen.irusuk.harvester.Harvester;
 import org.oapen.irusuk.harvester.QueryString;
+import org.oapen.irusuk.iplookup.IpLookupService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,11 +43,11 @@ import org.springframework.web.util.UriComponentsBuilder;
 public class ApplicationRunner implements CommandLineRunner {
 	
 	@Autowired
-	private ItemRepository itemRepo;
+	private ItemService<ItemDTO> itemService;
 	@Autowired
-	private EventRepository eventRepo;
+	private EventService<EventDTO> eventService;
 	@Autowired
-	private IpLocationRepository iplocRepo;	
+	private IpLookupService<IpLocationDTO> iplocService;	
 	@Autowired 
 	private AppStatus appStatus;
 	@Autowired
@@ -102,11 +106,11 @@ public class ApplicationRunner implements CommandLineRunner {
 		logger.info("Ingester looking for month {} and later in {}",
 			ym, path.toString());
 		
-		DirectoryScanner ds = new DirectoryScanner(path,ym);
+		IngestableFileFinder ds = new IngestableFileFinder(path,ym);
 		List<File> jsonFiles = ds.collect();
 		logger.info("Found {} files", jsonFiles.size());
 
-		DataIngester di = new DataIngester(itemRepo, eventRepo, iplocRepo);
+		DataIngester di = new DataIngesterImp(itemService, eventService, iplocService);
 		List<File> ingestedFiles = di.ingest(jsonFiles);
 		ingestedFiles.forEach(f -> 
 			logger.info("Ingested {}", f.getAbsolutePath())
@@ -114,7 +118,7 @@ public class ApplicationRunner implements CommandLineRunner {
 		
 		// On success update appStatus with highest month in file list
 		if(!ingestedFiles.isEmpty()) {
-			String lastFileName = DirectoryScanner.getFileNameWithoutExtension(
+			String lastFileName = IngestableFileFinder.getFileNameWithoutExtension(
 				ingestedFiles.get(ingestedFiles.size()-1).getName()
 			);
 			appStatus.setLastIngestedMonth(YearMonth.parse(lastFileName));

@@ -8,20 +8,22 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.TreeMap;
 
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.oapen.irusuk.dataingestion.jpa.JSONEntityToDTOMapperImp;
 import org.oapen.irusuk.dataingestion.jpa.EventDTO;
-import org.oapen.irusuk.dataingestion.jpa.IpLocationDTO;
 import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
 import org.oapen.irusuk.entities.ReportItem;
+import org.oapen.irusuk.iplookup.IpLookupService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class DTOMapperTests {
 	
-	TreeMap<Long, IpLocationDTO> ipLocationMap = new TreeMap<>();
+	@Autowired
+	IpLookupService ipLookupService;
 	
 	String path = "src/test/resources/report-with-items-with-funders.json";
 	File file = new File(path);
@@ -30,9 +32,8 @@ public class DTOMapperTests {
 	Optional<Exception> exception = Optional.empty();
 	
 	{
-		ipLocationMap.put(10L,new IpLocationDTO());
-		parser.parseItems(reportItems::add);
-	}
+		parser.parseItems(reportItems::add); 
+	} 
 	
 	@Test
 	@Order(1)    
@@ -46,14 +47,12 @@ public class DTOMapperTests {
 	@Order(2)
 	void testItemMapping() {
 		
-		ReportItem item = reportItems.get(0);
-		DTOMapper mapper = new DTOMapper(item,ipLocationMap);
-		ItemDTO itemDTO = mapper.itemDTO();
+		ReportItem reportItem = reportItems.get(0);
+		JSONEntityToDTOMapper<ItemDTO, EventDTO> mapper = new JSONEntityToDTOMapperImp(reportItem,ipLookupService);
+		ItemDTO item = mapper.item();
 
-		assertTrue(!reportItems.isEmpty());
-		assertNotNull(itemDTO);
-		assertEquals("20.500.12657/28390", itemDTO.id);
-		System.out.println(itemDTO);
+		assertNotNull(item);
+		assertEquals("20.500.12657/28390", item.getId());
 	}	
 	
 	@Test
@@ -61,13 +60,19 @@ public class DTOMapperTests {
 	void testEventsMapping() {
 
 		ReportItem item = reportItems.get(0);
-		DTOMapper mapper = new DTOMapper(item,ipLocationMap);
+		JSONEntityToDTOMapper<ItemDTO, EventDTO> mapper = new JSONEntityToDTOMapperImp(item,ipLookupService);
 		
-		ItemDTO itemDTO = mapper.itemDTO();
-		List<EventDTO> eventDTOs = mapper.eventDTOs();
+		ItemDTO itemDTO = mapper.item();
+		
+		System.out.println(itemDTO);
+		
+		List<EventDTO> eventDTOs = mapper.events();
 		assertTrue(eventDTOs.size()==2);
-		assertEquals("Italy", eventDTOs.get(0).country);
-		assertEquals(itemDTO.id, eventDTOs.get(0).itemId);
+		
+		System.out.println(eventDTOs.get(0));
+		
+		assertEquals("Italy", eventDTOs.get(0).getCountry());
+		assertEquals(itemDTO.getId(), eventDTOs.get(0).getItemId());
 		
 		System.out.println(eventDTOs);
 	}	

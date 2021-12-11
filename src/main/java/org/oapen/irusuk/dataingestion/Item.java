@@ -1,42 +1,17 @@
-package org.oapen.irusuk.dataingestion.jpa;
+package org.oapen.irusuk.dataingestion;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
+public class Item {
 
-import org.oapen.irusuk.dataingestion.Item;
-
-@Entity(name = "Item")
-@Table(name = "item")
-
-public class ItemDTO extends Item {
-
-	@Id @Column(nullable=false)
-	private String id; // like "20.500.12657/34945"
-	private String title, authors, doi, isbn, type, platform,
-		publisherName, publisherId, grantNumber, grantProgram, irusId;
+	private String id; 
+	private String title, authors, doi, isbn, type, platform;
+	private String publisherName, publisherId, grantNumber, grantProgram, irusId;
 	private Short year;
+	private Set<? extends Funder> funders = new HashSet<>();
 	
-    @ManyToMany(
-    	fetch = FetchType.EAGER, // Eager, because there are only a few.	
-    	cascade = {CascadeType.PERSIST,CascadeType.MERGE}
-    )
-    @JoinTable(name = "item_funder",
-        joinColumns = @JoinColumn(name = "item_id"),
-        inverseJoinColumns = @JoinColumn(name = "funder_id")
-    )
-	private Set<FunderDTO> funders = new HashSet<>();
-
-	public String getId() {
+    public String getId() {
 		return id;
 	}
 
@@ -87,15 +62,15 @@ public class ItemDTO extends Item {
 	public Short getYear() {
 		return year;
 	}
-	
-	public Set<FunderDTO> getFunders() {
+
+	public Set<? extends Funder> getFunders() {
 		return funders;
 	}
-	
+
 	public void setId(String id) {
 		this.id = id;
 	}
-	
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
@@ -144,14 +119,38 @@ public class ItemDTO extends Item {
 		this.year = year;
 	}
 
-	public void addFunder(FunderDTO funder) {
-        funders.add(funder);
-        funder.items.add(this);
-    }
+	public void setFunders(Set<? extends Funder> funders) {
+		this.funders = funders;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Item other = (Item) obj;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		return true;
+	}
 
 	@Override
 	public String toString() {
-		return "ItemDTO [id=" + id + ", title=" + getTitle() + "]";
+		return "Item [id=" + id + ", title=" + title + ", funders=" + funders + "]";
 	}
-
+		
 }

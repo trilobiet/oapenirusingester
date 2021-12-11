@@ -35,7 +35,7 @@ public class DirectoryScannerTests {
 
 		YearMonth first = YearMonth.of(2020, 4); 
 		YearMonth last = YearMonth.of(2020, 5);
-		DirectoryScanner ds = new DirectoryScanner(p,first, last);
+		IngestableFileFinder ds = new IngestableFileFinder(p,first, last);
 		List<File> files = ds.collect();
 		assertEquals(files.size(),2);
 	}
@@ -44,7 +44,7 @@ public class DirectoryScannerTests {
 
 		YearMonth first = YearMonth.of(2020, 5); 
 		YearMonth last = YearMonth.of(2020, 6);
-		DirectoryScanner ds = new DirectoryScanner(p,first, last);
+		IngestableFileFinder ds = new IngestableFileFinder(p,first, last);
 		List<File> files = ds.collect();
 		assertEquals(files.size(),1);
 	}
@@ -53,7 +53,7 @@ public class DirectoryScannerTests {
 
 		YearMonth first = YearMonth.of(1900, 1); 
 		YearMonth last = YearMonth.of(1900, 12);
-		DirectoryScanner ds = new DirectoryScanner(p,first, last);
+		IngestableFileFinder ds = new IngestableFileFinder(p,first, last);
 		List<File> files = ds.collect();
 		assertTrue(files.isEmpty());
 	}
@@ -62,7 +62,7 @@ public class DirectoryScannerTests {
 
 		YearMonth first = YearMonth.of(2020, 4); 
 		YearMonth last = YearMonth.of(2020, 7);
-		DirectoryScanner ds = new DirectoryScanner(p,first, last);
+		IngestableFileFinder ds = new IngestableFileFinder(p,first, last);
 		List<File> files = ds.collect();
 		assertTrue(files.get(files.size()-1).getName().equals("2020-07"));
 	}

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class DirectoryScanner {
+public class IngestableFileFinder {
 	
 	private final Path path;
 	private final YearMonth first;
@@ -19,14 +19,14 @@ public class DirectoryScanner {
 		return f.replaceFirst("[.][^.]+$", "");
 	}
 	
-	public DirectoryScanner(Path path, YearMonth first, YearMonth last) {
+	public IngestableFileFinder(Path path, YearMonth first, YearMonth last) {
 
 		this.path = path;
 		this.first = first;
 		this.last = last;
 	}
 	
-	public DirectoryScanner(Path path, YearMonth first) {
+	public IngestableFileFinder(Path path, YearMonth first) {
 		this(path, first, YearMonth.of(9999,12));
 	}
 	
