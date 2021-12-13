@@ -3,6 +3,13 @@ package org.oapen.irusuk.dataingestion;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Item represents a work (usually (part of a) book or publication)
+ * for which Events are registered.  
+ * 
+ * @author acdhirr
+ *
+ */
 public class Item {
 
 	private String id; 

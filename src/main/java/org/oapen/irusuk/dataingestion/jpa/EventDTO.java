@@ -10,10 +10,16 @@ import javax.persistence.Table;
 
 import org.oapen.irusuk.dataingestion.Event;
 
-
+/** 
+ * Subclass of {@link org.oapen.irusuk.dataingestion.Event} suitable for use with JPA. 
+ * 
+ * @author acdhirr
+ *
+ */
 @Entity(name = "Event")
 @Table(name = "event")
 @IdClass(EventId.class)
+
 public class EventDTO extends Event  {
 	
 	/* Combined key of three fields

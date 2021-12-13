@@ -11,7 +11,7 @@ import java.util.Optional;
 
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.oapen.irusuk.dataingestion.jpa.JSONEntityToDTOMapperImp;
+import org.oapen.irusuk.dataingestion.jpa.ReportItemToDTOMapper;
 import org.oapen.irusuk.dataingestion.jpa.EventDTO;
 import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
 import org.oapen.irusuk.entities.ReportItem;
@@ -48,7 +48,7 @@ public class DTOMapperTests {
 	void testItemMapping() {
 		
 		ReportItem reportItem = reportItems.get(0);
-		JSONEntityToDTOMapper<ItemDTO, EventDTO> mapper = new JSONEntityToDTOMapperImp(reportItem,ipLookupService);
+		ToPersistableEntitiesMapper<ItemDTO, EventDTO> mapper = new ReportItemToDTOMapper(reportItem,ipLookupService);
 		ItemDTO item = mapper.item();
 
 		assertNotNull(item);
@@ -60,7 +60,7 @@ public class DTOMapperTests {
 	void testEventsMapping() {
 
 		ReportItem item = reportItems.get(0);
-		JSONEntityToDTOMapper<ItemDTO, EventDTO> mapper = new JSONEntityToDTOMapperImp(item,ipLookupService);
+		ToPersistableEntitiesMapper<ItemDTO, EventDTO> mapper = new ReportItemToDTOMapper(item,ipLookupService);
 		
 		ItemDTO itemDTO = mapper.item();
 		

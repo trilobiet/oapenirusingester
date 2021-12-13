@@ -1,5 +1,10 @@
 package org.oapen.irusuk.dataingestion;
 
+/**
+ * Represents a Funder. 
+ * @author acdhirr
+ *
+ */
 public class Funder {
 	
 	private String id;

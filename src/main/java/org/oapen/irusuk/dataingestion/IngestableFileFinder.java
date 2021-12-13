@@ -7,6 +7,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * Find JSON files to ingest.
+ * <br/>
+ * Filenames must conform to the naming pattern "YYYY-MM.json" 
+ * 
+ * @author acdhirr
+ *
+ */
 public class IngestableFileFinder {
 	
 	private final Path path;
@@ -19,6 +27,15 @@ public class IngestableFileFinder {
 		return f.replaceFirst("[.][^.]+$", "");
 	}
 	
+	/**
+	 * Constructs an IngestableFileFinder looking for files
+	 * on given path, who's name conforms to a year/month 
+	 * between [first] and [last] (boundaries included).
+	 * 	 
+	 * @param path  Path to look for files (non recursive)
+	 * @param first First year/month to include 
+	 * @param last	Last year/month to include
+	 */
 	public IngestableFileFinder(Path path, YearMonth first, YearMonth last) {
 
 		this.path = path;
@@ -26,10 +43,21 @@ public class IngestableFileFinder {
 		this.last = last;
 	}
 	
+	/**
+	 * Constructs an IngestableFileFinder looking for files
+	 * on given path, who's name conforms to a year/month 
+	 * starting at [first] and all months available thereafter.
+	 * 
+	 * @param path	Path to look for files (non recursive)
+	 * @param first	First year/month to include
+	 */
 	public IngestableFileFinder(Path path, YearMonth first) {
 		this(path, first, YearMonth.of(9999,12));
 	}
 	
+	/**
+	 * @return List of ingestable files for this IngestableFileFinder
+	 */
 	public List<File> collect() {
 		
 		return Stream.of(path.toFile().listFiles())

@@ -15,6 +15,11 @@ import javax.persistence.Table;
 
 import org.oapen.irusuk.dataingestion.Item;
 
+/**
+ * Subclass of {@link org.oapen.irusuk.dataingestion.Item} suitable for use with JPA.
+ * @author acdhirr
+ *
+ */
 @Entity(name = "Item")
 @Table(name = "item")
 

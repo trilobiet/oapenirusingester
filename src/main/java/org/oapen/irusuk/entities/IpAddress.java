@@ -4,6 +4,12 @@ import java.util.stream.LongStream;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
+/**
+ * IRUS-UK API JSON representation for IpAddress (Client_IP)
+ * 
+ * @author acdhirr
+ *
+ */
 @JsonDeserialize(using = IpAddressDeserializer.class)
 public class IpAddress {
 
@@ -18,7 +24,7 @@ public class IpAddress {
 	}
 	
 	/**
-	 * Get a numerical representation of an IPv4 address.
+	 * Get a numerical representation for an IPv4 address.
 	 * <br/>
 	 * Ip address: a.b.c.d
 	 * <br/>

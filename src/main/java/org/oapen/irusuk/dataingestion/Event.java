@@ -2,7 +2,14 @@ package org.oapen.irusuk.dataingestion;
 
 import java.time.LocalDate;
 
-
+/**
+ * Event represents the number of logged requests for an Item 
+ * for a single ip address on a certain date. 
+ * Contains geographical data corresponding to the ip address.  
+ * 
+ * @author acdhirr
+ *
+ */
 public class Event {
 	
 	private String ip;

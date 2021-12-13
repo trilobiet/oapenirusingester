@@ -3,6 +3,11 @@ package org.oapen.irusuk.dataingestion.jpa;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+/** 
+ * Id object for EventDTO (triple field id)
+ * @author acdhirr
+ *
+ */
 public class EventId implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

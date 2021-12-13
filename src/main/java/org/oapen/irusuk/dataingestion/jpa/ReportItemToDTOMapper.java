@@ -5,19 +5,39 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import org.oapen.irusuk.dataingestion.JSONEntityToDTOMapper;
+import org.oapen.irusuk.dataingestion.ToPersistableEntitiesMapper;
 import org.oapen.irusuk.entities.IpAddress;
 import org.oapen.irusuk.entities.PerformanceInstance;
 import org.oapen.irusuk.entities.ReportItem;
 import org.oapen.irusuk.iplookup.IpLookupService;
 
-public class JSONEntityToDTOMapperImp implements JSONEntityToDTOMapper<ItemDTO,EventDTO> {
+/**
+ * Maps a {@link org.oapen.irusuk.entities.ReportItem} to 
+ * a (persistable) {@link org.oapen.irusuk.dataingestion.Item}
+ * and a (persistable) List of {@link org.oapen.irusuk.dataingestion.Event}s
+ * <br/><br/>
+ * Takes an IpLookupService to enrich IRUSUK data with geolocation data for 
+ * ip addresses. IRUS UK data does contain ip addresses along with originating 
+ * country data for requests, but without precise geographical data 
+ * (city, latitude/longitude) so these finer grained fields are provided by 
+ * IpLookupService during the mapping process. 
+ * 
+ * @author acdhirr
+ *
+ */
+public class ReportItemToDTOMapper implements ToPersistableEntitiesMapper<ItemDTO,EventDTO> {
 	
 	private final IpLookupService<IpLocationDTO> ipLookupService;
 	private final ReportItem reportItem;
 	private final String itemId;
 
-	public JSONEntityToDTOMapperImp(ReportItem reportItem, IpLookupService<IpLocationDTO> ipLookupService) {
+	/**
+	 * Constructor 
+	 * 
+	 * @param reportItem ReportItem to map for persistence
+	 * @param ipLookupService IpLocation provider to enrich EventDTOs
+	 */
+	public ReportItemToDTOMapper(ReportItem reportItem, IpLookupService<IpLocationDTO> ipLookupService) {
 		this.ipLookupService = ipLookupService;
 		this.reportItem = reportItem; 
 		this.itemId = extractIdFromUri(reportItem.getUri());
@@ -104,7 +124,6 @@ public class JSONEntityToDTOMapperImp implements JSONEntityToDTOMapper<ItemDTO,E
 		
 		return funderDTO;
 	}
-	
 	
 
 	private String extractIdFromUri(String uri) {

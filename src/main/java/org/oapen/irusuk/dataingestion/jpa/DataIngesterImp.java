@@ -13,6 +13,13 @@ import org.oapen.irusuk.iplookup.IpLookupService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Ingester implementation that uses separate services
+ * for looking up Locations and saving ItemDTOs and EventDTOs.
+ *  
+ * @author acdhirr
+ *
+ */
 public class DataIngesterImp implements DataIngester {
 
 	private final ItemService<ItemDTO> itemService;
@@ -48,7 +55,7 @@ public class DataIngesterImp implements DataIngester {
 			boolean success = headerExceptions.isEmpty() 
 				&& parser.parseItems(item -> {
 				
-				JSONEntityToDTOMapperImp mapper = new JSONEntityToDTOMapperImp(item,ipLookupService);
+				ReportItemToDTOMapper mapper = new ReportItemToDTOMapper(item,ipLookupService);
 				ItemDTO itm = mapper.item();
 				List<EventDTO> eventDTOs = mapper.events();
 				itemService.save(itm);

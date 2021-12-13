@@ -19,6 +19,11 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
+/**
+ * Parses a report file. 
+ * @author acdhirr
+ *
+ */
 public class IRReportParser {
 	
 	private final File file;
@@ -27,12 +32,22 @@ public class IRReportParser {
 	private static final Logger logger = 
 		LoggerFactory.getLogger(IRReportParser.class);
 
+	/**
+	 * Constructs a parser for this file.
+	 * @param file
+	 */
 	public IRReportParser(File file){
 
 		this.file = file;
 		this.mapper = getConfiguredObjectMapper();
 	}
 
+	/**
+	 * Parse the header and send it to a Consumer.
+	 * 
+	 * @param headerConsumer Consumer function telling what to do with a {@link org.oapen.irusuk.entities.ReportHeader}
+	 * @return true when the parsing succeeded without error, false otherwise. 
+	 */
 	public boolean parseHeader(Consumer<ReportHeader> headerConsumer) {
 
 		try (JsonParser parser = mapper.getFactory().createParser(getInputStream(file).orElseThrow())) {
@@ -60,6 +75,11 @@ public class IRReportParser {
 		return true;
 	}
 	
+	/**
+	 * Parse the Items and send them each to a Consumer.
+	 * @param itemConsumer Consumer function telling what to do with a {@link org.oapen.irusuk.entities.ReportItem}
+	 * @return true when the parsing succeeded without error, false otherwise.
+	 */
 	public boolean parseItems(Consumer<ReportItem> itemConsumer) {
 
 		// Use Jackson JsonParser, it allows streaming

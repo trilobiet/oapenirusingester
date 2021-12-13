@@ -1,5 +1,12 @@
 package org.oapen.irusuk.iplookup;
 
+/**
+ * IpLocation represents an ip address together with its 
+ * geographical information
+ * 
+ * @author acdhirr
+ *
+ */
 public class IpLocation {
 
 	private Long ip;

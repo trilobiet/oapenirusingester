@@ -15,6 +15,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DefaultPropertiesPersister;
 
+/**
+ * AppStatus implementation that uses a local Properties file
+ * to persist and read the last application status.
+ * 
+ * @author acdhirr
+ *
+ */
 @Service
 public class PropertiesAppStatusService implements AppStatus {
 	
@@ -24,6 +31,11 @@ public class PropertiesAppStatusService implements AppStatus {
 	private static final Logger logger = 
 		LoggerFactory.getLogger(IRReportParser.class);
 	
+	/**
+	 * Constructs an PropertiesAppStatusService writing to and
+	 * reading from local file. 
+	 * @param propertiesFileName Local file path to store the status.
+	 */
 	public PropertiesAppStatusService(String propertiesFileName) {
 		this.propertiesFileName = propertiesFileName;
 	}

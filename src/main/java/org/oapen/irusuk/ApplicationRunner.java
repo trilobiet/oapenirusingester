@@ -32,6 +32,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 
 /**
+ * Main Controller for this implementation
+ *  
  * See  https://www.appsdeveloperblog.com/spring-boot-console-application/
  * 
  * @author acdhirr
@@ -56,24 +58,48 @@ public class ApplicationRunner implements CommandLineRunner {
 	@Value("${app.path.reports}")
 	private String reportsPath;
 	
-	
 	private static final Logger logger = 
 			LoggerFactory.getLogger(IRReportParser.class);
 
+	
+	/**
+	 * Run as either:
+	 * <ul>
+	 * 	<li> 
+	 * 		[harvest]: download new data from IRUS UK 
+	 * 	</li>
+	 * 	<li> 
+	 * 		[ingest]: process previously downloaded unprocessed data
+	 * 	</li>
+	 * </ul> 
+	 */
 	@Override
 	public void run(String... args) throws Exception {
 		
-		if (args.length > 0) {
-			
-			if (args[0].equals("ingest")) ingest();
-			else if (args[0].equals("harvest")) harvest();
-			else logger.warn("Run with invalid argument. "
-				+ "Don't understand what to do with '{}'.", args[0]);
+		String action = "";
+		
+		if (args.length > 0) action = args[0];
+
+		if (action.equals("harvest")) harvest();
+		else if (action.equals("ingest")) ingest();
+		else {
+			logger.warn("Run without proper argument. " 
+					+ "\nChoose 'harvest' or 'ingest'.");
+			System.out.println("Proper run arguments: [harvest|ingest]");
 		}
-		else logger.warn("Run without argument. "
-			+ "Choose 'ingest' or 'harvest'.");
 	}
 	
+	/**
+	 * Download a new month of data from IRUS-UK.
+	 * <br/><br/> 
+	 * The latest downloaded AND succesfully ingested month will be read
+	 * from the application status service {@link AppStatus}. 
+	 * <br/><br/>
+	 * N.B. Downloads will always succeed (given a valid connection) but may 
+	 * return a Report containing only a ReportHeader with Exceptions ('no data
+	 * available for this month'), in which case ingestion will be aborted and 
+	 * application status will not increase the month number. 
+	 */
 	public void harvest() {
 		
 		YearMonth ymStart = appStatus.getLastIngestedMonth().plusMonths(1);
@@ -98,7 +124,13 @@ public class ApplicationRunner implements CommandLineRunner {
 		}
 			
 	}
-	
+	 
+	/**
+	 * Ingest the latest downloaded report containing a month of data 
+	 * from IRUS-UK. Only when this month report contains data (no header 
+	 * exceptions) ingestion will succeed and the month number will be 
+	 * increased in application status.
+	 */
 	public void ingest() {
 		
 		Path path = Path.of(reportsPath.trim());

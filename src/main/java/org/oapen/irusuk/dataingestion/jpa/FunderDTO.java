@@ -11,6 +11,11 @@ import javax.persistence.Table;
 
 import org.oapen.irusuk.dataingestion.Funder;
 
+/**
+ * Subclass of {@link org.oapen.irusuk.dataingestion.Funder} suitable for use with JPA.
+ * @author acdhirr
+ *
+ */
 @Entity(name = "Funder")
 @Table(name = "funder")
 

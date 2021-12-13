@@ -9,7 +9,14 @@ import javax.persistence.Table;
 
 import org.oapen.irusuk.iplookup.IpLocation;
 
-// Read Only, no setters
+// 
+/**
+ * Subclass of {@link org.oapen.irusuk.iplookup.IpLocation} suitable for use with JPA.
+ * (Read only)
+ * 
+ * @author acdhirr
+ *
+ */
 @Entity
 @Table(name = "iplocation")
 
