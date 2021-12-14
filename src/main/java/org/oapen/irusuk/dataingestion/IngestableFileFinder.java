@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 /**
  * Find JSON files to ingest.
- * <br/>
+ * <br>
  * Filenames must conform to the naming pattern "YYYY-MM.json" 
  * 
  * @author acdhirr
@@ -29,7 +29,7 @@ public class IngestableFileFinder {
 	
 	/**
 	 * Constructs an IngestableFileFinder looking for files
-	 * on given path, who's name conforms to a year/month 
+	 * on given path, whose name conforms to a year/month 
 	 * between [first] and [last] (boundaries included).
 	 * 	 
 	 * @param path  Path to look for files (non recursive)
@@ -45,7 +45,7 @@ public class IngestableFileFinder {
 	
 	/**
 	 * Constructs an IngestableFileFinder looking for files
-	 * on given path, who's name conforms to a year/month 
+	 * on given path, whose name conforms to a year/month 
 	 * starting at [first] and all months available thereafter.
 	 * 
 	 * @param path	Path to look for files (non recursive)

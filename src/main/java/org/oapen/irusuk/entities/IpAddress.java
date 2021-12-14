@@ -25,9 +25,9 @@ public class IpAddress {
 	
 	/**
 	 * Get a numerical representation for an IPv4 address.
-	 * <br/>
+	 * <br>
 	 * Ip address: a.b.c.d
-	 * <br/>
+	 * <br>
 	 * a*256^3 + b*256^2 + c*256^1 + d*256^0 
 	 * 
 	 * @return Numerical representation of this address when in IPv4 format.

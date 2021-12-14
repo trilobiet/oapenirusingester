@@ -15,7 +15,7 @@ import org.oapen.irusuk.iplookup.IpLookupService;
  * Maps a {@link org.oapen.irusuk.entities.ReportItem} to 
  * a (persistable) {@link org.oapen.irusuk.dataingestion.Item}
  * and a (persistable) List of {@link org.oapen.irusuk.dataingestion.Event}s
- * <br/><br/>
+ * <br><br>
  * Takes an IpLookupService to enrich IRUSUK data with geolocation data for 
  * ip addresses. IRUS UK data does contain ip addresses along with originating 
  * country data for requests, but without precise geographical data 

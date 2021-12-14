@@ -32,8 +32,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 
 /**
- * Main Controller for this implementation
- *  
+ * Main Controller for this implementation.
+ * <br> 
  * See  https://www.appsdeveloperblog.com/spring-boot-console-application/
  * 
  * @author acdhirr
@@ -91,10 +91,10 @@ public class ApplicationRunner implements CommandLineRunner {
 	
 	/**
 	 * Download a new month of data from IRUS-UK.
-	 * <br/><br/> 
+	 * <br><br> 
 	 * The latest downloaded AND succesfully ingested month will be read
 	 * from the application status service {@link AppStatus}. 
-	 * <br/><br/>
+	 * <br><br>
 	 * N.B. Downloads will always succeed (given a valid connection) but may 
 	 * return a Report containing only a ReportHeader with Exceptions ('no data
 	 * available for this month'), in which case ingestion will be aborted and 

@@ -16,7 +16,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.test.context.junit.jupiter.EnabledIf;
 
 /***
- * You have to explicitely ENABLE these tests in application.properties
+ * You have to explicitly ENABLE these tests in application.properties
  * 
  * @author acdhirr
  *

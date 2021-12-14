@@ -33,8 +33,7 @@ public class IRReportParser {
 		LoggerFactory.getLogger(IRReportParser.class);
 
 	/**
-	 * Constructs a parser for this file.
-	 * @param file
+	 * @param file File to construct a parser for 
 	 */
 	public IRReportParser(File file){
 

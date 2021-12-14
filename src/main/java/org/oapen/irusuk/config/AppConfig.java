@@ -61,10 +61,8 @@ public class AppConfig {
 		return new PropertiesAppStatusService(appStatusPath);
 	};
 	
-	/**
+	/*
 	 * https://stackoverflow.com/questions/7031905/automatically-trim-trailing-white-space-for-properties-in-props-file-loaded-into
-	 * 
-	 * @return
 	 */
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer createPropertyConfigurer() {

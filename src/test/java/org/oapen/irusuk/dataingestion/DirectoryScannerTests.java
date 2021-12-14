@@ -14,11 +14,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * Test the scanning of a directory for files named "abcd-xy.json"
  * between two yearMonths.
- * <br/<br/
+ * <br><br>
  * For the tests to succeed, two reports must be available in directory
- * "src/test/resources/directory_scanner_tests":<br/
- * 2020-04.json<br/
- * 2020-05.json<br/
+ * "src/test/resources/directory_scanner_tests":
+ * <br>2020-04.json
+ * <br>2020-05.json
+ * <br>
  * 
  * @author acdhirr
  *

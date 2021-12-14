@@ -8,8 +8,8 @@ import java.util.List;
  * 
  * @author acdhirr
  *
- * @param <T>
- * @param <U>
+ * @param <T> The type of Item objects for this class
+ * @param <U> The type of Event objects for this class
  */
 public interface ToPersistableEntitiesMapper<T extends Item, U extends Event> {
 	

@@ -17,8 +17,7 @@ public interface AppStatus {
 	YearMonth getLastIngestedMonth();
 	
 	/**
-	 * Set last successfully ingested year/month number. 
-	 * @param ym
+	 * @param ym Last successfully ingested year/month number.
 	 */
 	void setLastIngestedMonth(YearMonth ym);
 }

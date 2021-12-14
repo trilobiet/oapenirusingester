@@ -1,0 +1,7 @@
+org.oapen.irusuk
+org.oapen.irusuk.config
+org.oapen.irusuk.dataingestion
+org.oapen.irusuk.dataingestion.jpa
+org.oapen.irusuk.entities
+org.oapen.irusuk.harvester
+org.oapen.irusuk.iplookup
