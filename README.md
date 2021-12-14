@@ -1,6 +1,6 @@
 # OAPEN IRUS-UK Data Ingester
 
-Harvest data from IRUS-UK, enrich ip addresses with geolocation data, split in 
+Harvest data from IRUS-UK, enrich ip-addresses with geolocation data, split in 
 tables and upload to a database.
 
 
