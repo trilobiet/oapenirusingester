@@ -9,7 +9,6 @@ import java.io.OutputStream;
 import java.time.YearMonth;
 import java.util.Properties;
 
-import org.oapen.irusuk.dataingestion.IRReportParser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -29,7 +28,7 @@ public class PropertiesAppStatusService implements AppStatus {
 	private final String lastIngestionKey = "last_ingested_month";
 	
 	private static final Logger logger = 
-		LoggerFactory.getLogger(IRReportParser.class);
+		LoggerFactory.getLogger(PropertiesAppStatusService.class);
 	
 	/**
 	 * Constructs an PropertiesAppStatusService writing to and
@@ -43,16 +42,19 @@ public class PropertiesAppStatusService implements AppStatus {
 	@Override
 	public YearMonth getLastIngestedMonth() {
 
-		File f = new File(propertiesFileName);
-		final YearMonth allTime = YearMonth.of(1900, 1);
+		File f = initFile();
+		
+		final YearMonth allTime = YearMonth.of(1899, 12);
 		
 		try (InputStream in = new FileInputStream(f)){
 			Properties props = new Properties();
 			props.load(in);
 			if (props.containsKey(lastIngestionKey))
 				return YearMonth.parse(props.getProperty(lastIngestionKey));
-			else 
+			else {
+				logger.warn("Substituting '{}' for '{}'", allTime, lastIngestionKey);
 				return allTime;
+			}	
 		} catch (IOException e) {
 			logger.warn(
 				"No last ingested month found at " + f.getAbsolutePath() +
@@ -64,11 +66,9 @@ public class PropertiesAppStatusService implements AppStatus {
 
 	@Override
 	public void setLastIngestedMonth(YearMonth ym) {
-
-		File f = new File(propertiesFileName);
-		File parent = f.getParentFile();
-		if (!parent.exists()) parent.mkdirs();
 		
+		File f = initFile();
+
 		try (OutputStream out = new FileOutputStream(f)){
 		    DefaultPropertiesPersister p = new DefaultPropertiesPersister();
 		    Properties props = new Properties();
@@ -80,6 +80,22 @@ public class PropertiesAppStatusService implements AppStatus {
 				f.getAbsolutePath()
 			);
 		}
+	}
+	
+	private File initFile() {
+		
+		File f = new File(propertiesFileName);
+		File parent = f.getParentFile();
+		if (!parent.exists()) parent.mkdirs();
+		if (!f.exists())
+			try {
+				f.createNewFile();
+				logger.warn("Created new {}.", propertiesFileName);
+			} catch (IOException e) {
+				logger.error("Failed to create new {}.", propertiesFileName);
+				logger.error(e.getMessage());
+			}
+		return f;
 	}
 
 }

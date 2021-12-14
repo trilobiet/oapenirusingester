@@ -5,6 +5,7 @@ import org.oapen.irusuk.PropertiesAppStatusService;
 import org.oapen.irusuk.dataingestion.EventService;
 import org.oapen.irusuk.dataingestion.ItemService;
 import org.oapen.irusuk.dataingestion.jpa.EventDTO;
+import org.oapen.irusuk.dataingestion.jpa.IpLocationDTO;
 import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
 import org.oapen.irusuk.dataingestion.jpa.JpaEventService;
 import org.oapen.irusuk.dataingestion.jpa.JpaIpLookupService;
@@ -51,14 +52,13 @@ public class AppConfig {
 		return new JpaEventService(); 
 	}
 	@Bean
-	public IpLookupService ipLookupService() {
+	public IpLookupService<IpLocationDTO> ipLookupService() {
 		return new JpaIpLookupService(); 
 	}
 	
-	
 	@Bean
-	public AppStatus appStatus() {
-		return new PropertiesAppStatusService(appStatusPath);
+	public AppStatus appStatus(@Value("${app.path.app-status}") String path) {
+		return new PropertiesAppStatusService(path);
 	};
 	
 	/*

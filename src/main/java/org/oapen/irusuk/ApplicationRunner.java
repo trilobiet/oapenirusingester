@@ -10,7 +10,6 @@ import java.util.List;
 
 import org.oapen.irusuk.dataingestion.DataIngester;
 import org.oapen.irusuk.dataingestion.EventService;
-import org.oapen.irusuk.dataingestion.IRReportParser;
 import org.oapen.irusuk.dataingestion.IngestableFileFinder;
 import org.oapen.irusuk.dataingestion.ItemService;
 import org.oapen.irusuk.dataingestion.jpa.DataIngesterImp;
@@ -59,7 +58,7 @@ public class ApplicationRunner implements CommandLineRunner {
 	private String reportsPath;
 	
 	private static final Logger logger = 
-			LoggerFactory.getLogger(IRReportParser.class);
+			LoggerFactory.getLogger(ApplicationRunner.class);
 
 	
 	/**

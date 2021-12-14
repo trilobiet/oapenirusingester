@@ -1,8 +1,10 @@
 
+# Properties for deployment
+
 spring.jpa.properties.hibernate.jdbc.batch_size=100
 spring.jpa.properties.hibernate.jdbc.batch_versioned_data=true
 
-logging.level.root=INFO
+logging.level.root=WARN
 logging.level.oapen.irusuk=INFO
 logging.file.name=${user.home}/irusuk/logs/ingester.log
 
@@ -19,4 +21,3 @@ app.path.reports=${user.home}/irusuk/downloaded_reports
 app.path.app-status=${user.home}/irusuk/app-state.properties
 
 dbtests.enabled=FALSE
-iploadtests.enabled=FALSE

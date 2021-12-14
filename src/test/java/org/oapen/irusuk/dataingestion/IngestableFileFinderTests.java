@@ -25,7 +25,7 @@ import org.springframework.boot.test.context.SpringBootTest;
  *
  */
 @SpringBootTest
-public class DirectoryScannerTests {
+public class IngestableFileFinderTests {
 	
 	private final String reportsPath = "src/test/resources/downloaded_reports";
 	private File file = new File(reportsPath);

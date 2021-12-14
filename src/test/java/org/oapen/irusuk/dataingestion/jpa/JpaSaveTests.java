@@ -1,4 +1,4 @@
-package org.oapen.irusuk.dataingestion;
+package org.oapen.irusuk.dataingestion.jpa;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,9 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.YearMonth;
 
 import org.junit.jupiter.api.Test;
-import org.oapen.irusuk.dataingestion.jpa.EventDTO;
-import org.oapen.irusuk.dataingestion.jpa.FunderDTO;
-import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
+import org.oapen.irusuk.dataingestion.EventService;
+import org.oapen.irusuk.dataingestion.Item;
+import org.oapen.irusuk.dataingestion.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.dao.DataAccessException;
@@ -42,7 +42,7 @@ public class JpaSaveTests {
 		i.setId("1234567890/1");
 		ItemDTO saved = itemService.save(i); 
 		
-		System.out.println("Saved Item: " + saved);
+		// System.out.println("Saved Item: " + saved);
 		
 		assertEquals(saved.getId(), i.getId());
 	}

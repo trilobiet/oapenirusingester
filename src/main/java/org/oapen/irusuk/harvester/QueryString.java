@@ -4,6 +4,12 @@ import java.time.YearMonth;
 
 import org.springframework.util.StringUtils;
 
+/**
+ * Represents a query string for requests at the IRUS-UK API
+ * 
+ * @author acdhirr
+ *
+ */
 public class QueryString {
 
 	private YearMonth

@@ -1,4 +1,4 @@
-package org.oapen.irusuk.dataingestion;
+package org.oapen.irusuk.dataingestion.jpa;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -11,19 +11,18 @@ import java.util.Optional;
 
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.oapen.irusuk.dataingestion.jpa.ReportItemToDTOMapper;
-import org.oapen.irusuk.dataingestion.jpa.EventDTO;
-import org.oapen.irusuk.dataingestion.jpa.ItemDTO;
+import org.oapen.irusuk.dataingestion.IRReportParser;
+import org.oapen.irusuk.dataingestion.ToPersistableEntitiesMapper;
 import org.oapen.irusuk.entities.ReportItem;
 import org.oapen.irusuk.iplookup.IpLookupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class DTOMapperTests {
+public class ReportItemToDTOMapperTests {
 	
 	@Autowired
-	IpLookupService ipLookupService;
+	IpLookupService<IpLocationDTO> ipLookupService;
 	
 	String path = "src/test/resources/report-with-items-with-funders.json";
 	File file = new File(path);
@@ -64,17 +63,17 @@ public class DTOMapperTests {
 		
 		ItemDTO itemDTO = mapper.item();
 		
-		System.out.println(itemDTO);
+		// System.out.println(itemDTO);
 		
 		List<EventDTO> eventDTOs = mapper.events();
 		assertTrue(eventDTOs.size()==2);
 		
-		System.out.println(eventDTOs.get(0));
+		// System.out.println(eventDTOs.get(0));
 		
 		assertEquals("Italy", eventDTOs.get(0).getCountry());
 		assertEquals(itemDTO.getId(), eventDTOs.get(0).getItemId());
 		
-		System.out.println(eventDTOs);
+		// System.out.println(eventDTOs);
 	}	
 	
 	

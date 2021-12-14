@@ -103,7 +103,7 @@ public class ReportItemToDTOMapper implements ToPersistableEntitiesMapper<ItemDT
 			eventDTO.setIp(cutOff(clientIp.getIp(), 40));
 			
 			IpLocationDTO iploc = ipLookupService.findByIp(clientIp);
-			System.out.println("Location for " + clientIp + " is " + iploc);
+			// System.out.println("Location for " + clientIp + " is " + iploc);
 			
 			if (null != iploc) {
 				eventDTO.setCity(cutOff(iploc.getCity(), 255));

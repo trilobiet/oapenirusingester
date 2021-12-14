@@ -21,9 +21,11 @@ public final class Harvester {
 	
 	public void downloadTo(String filePath) throws IOException  {
 		
-		InputStream is = getInputStream(url);
-		Path path = Path.of(filePath);
-		Files.copy(is, path, StandardCopyOption.REPLACE_EXISTING);
+		try (InputStream is = getInputStream(url)) {
+			Path path = Path.of(filePath);
+			Files.createDirectories(path.getParent());
+			Files.copy(is, path, StandardCopyOption.REPLACE_EXISTING);
+		}
 	}
 	
 	public InputStream getInputStream(URL url) throws IOException {
