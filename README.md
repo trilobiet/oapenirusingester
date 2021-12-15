@@ -1,5 +1,6 @@
-# OAPEN IRUS-UK Data Ingester
+# Handi: OAPEN IRUS-UK Data Harvester and Ingester
 
+<img src="handi.jpg" alt="Handi" style="float:right"/> 
 Harvest data from IRUS-UK, enrich ip-addresses with geolocation data, split into 
 tables and upload to a database.
 
