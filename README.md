@@ -24,8 +24,9 @@ runs.
 - the corresponding JSON file contains no header exceptions 
 - ingestion into the database succeeded
 
-Ip address in memory loading will only happen when the ingester encounters 
-the first ip address while parsing the JSON file.
+Ip data in-memory-loading happens on the first encounter of an ip address by 
+the ingester while parsing the JSON file (lazy loading the entire 
+ip location table in a binary search tree).
 
 ## Java memory management
 

@@ -23,8 +23,16 @@ public class IngestableFileFinder {
 	private final String fileNamePattern = 
 			"^(19|20)[0-9]{2}-(0[1-9]|1[0-2])\\.json$";
 
-	public static String getFileNameWithoutExtension(String f) {
-		return f.replaceFirst("[.][^.]+$", "");
+	/**
+	 * Utility method to get a filename without extension
+	 * <br>
+	 * ex. 2020-04.json -&gt; 2020-04 
+	 * 
+	 * @param fileName Filename with extension
+	 * @return Filename without extension
+	 */
+	public static String getFileNameWithoutExtension(String fileName) {
+		return fileName.replaceFirst("[.][^.]+$", "");
 	}
 	
 	/**
