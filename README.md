@@ -36,5 +36,7 @@ Use JVM argument `-Xmx1G` to specify a maximum heap size of 1G.
 
 You may also set this as a permanent java option in `/etc/environment`:  
 `_JAVA_OPTIONS=-Xmx1G`
-	
+
+## Documentation
+[Java docs](https://trilobiet.github.io/oapenirusingester/)
 
