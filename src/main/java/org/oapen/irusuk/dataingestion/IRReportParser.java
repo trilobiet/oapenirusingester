@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -28,6 +29,8 @@ public class IRReportParser {
 	
 	private final File file;
 	private final ObjectMapper mapper;
+	// Keep track of last successfully parsed item
+	private String lastSuccessfullyParsedItemId = "[none]";
 	
 	private static final Logger logger = 
 		LoggerFactory.getLogger(IRReportParser.class);
@@ -100,12 +103,20 @@ public class IRReportParser {
 
 						// loop over items until token equals "]"
 						while (parser.nextToken() != JsonToken.END_ARRAY) {
-							ReportItem item = mapper.readValue(parser, ReportItem.class);
-							try {
-								itemConsumer.accept(item);
-							} catch (Exception e) {
-								logger.error("While parsing Item {}: Error occured {}", item.getUri(), e);
-							}
+							
+							Optional<ReportItem> oReportItem = parseItem(parser);
+							
+							if (oReportItem.isPresent()) {
+								
+								ReportItem reportItem = oReportItem.get();
+								lastSuccessfullyParsedItemId = reportItem.getItemId();
+								
+								try {
+									itemConsumer.accept(reportItem);
+								} catch (Exception e) {
+									logger.error("Error occured while consuming Item {}: {}", reportItem.getUri(), e);
+								}
+							}	
 						}
 					}
 				}
@@ -118,13 +129,28 @@ public class IRReportParser {
 
 		return true;
 	}
-
+	
+	
+	private Optional<ReportItem> parseItem(JsonParser parser) throws IOException {
+		
+		Optional<ReportItem> oReportItem = Optional.empty();
+		
+		try {
+			oReportItem = Optional.of(mapper.readValue(parser, ReportItem.class));
+		} catch (JsonProcessingException e) {
+			logger.error("Error occured while parsing an Item: {}", e.getMessage());
+			logger.warn("Last succesfully parsed Item is {}", lastSuccessfullyParsedItemId);
+		}
+		return oReportItem;
+	}
+	
 	
 	private ObjectMapper getConfiguredObjectMapper() {
 
 		ObjectMapper mapper = new ObjectMapper();
 		// This handles java YearMonth etc.:
         mapper.registerModule(new JavaTimeModule()); 
+        // https://www.javadoc.io/doc/com.fasterxml.jackson.core/jackson-databind/2.13.0/com/fasterxml/jackson/databind/DeserializationFeature.html
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         return mapper;
 	}
@@ -139,6 +165,6 @@ public class IRReportParser {
 			return Optional.empty();
 		}
 	}	
-	
 
+	
 }
