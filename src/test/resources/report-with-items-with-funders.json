@@ -40,8 +40,8 @@
 					"Event_Month": "2020-04",
 					"Client_IP": "1.2.3.4",
 					"Country": {
-						"Country_Code": "IT",
-						"Country": "Italy"
+						"Country_Code": "AU",
+						"Country": "Australia"
 					},
 					"Metric_Type_Counts": {
 						"Total_Item_Investigations": 1,
@@ -54,8 +54,8 @@
 					"Event_Month": "2020-04",
 					"Client_IP": "1.2.3.4",
 					"Country": {
-						"Country_Code": "TR",
-						"Country": "Turkey"
+						"Country_Code": "AU",
+						"Country": "Australia"
 					},
 					"Metric_Type_Counts": {
 						"Total_Item_Investigations": 2,
@@ -87,8 +87,8 @@
 					"Event_Month": "2020-04",
 					"Client_IP": "1.2.3.4",
 					"Country": {
-						"Country_Code": "BE",
-						"Country": "Belgium"
+						"Country_Code": "AU",
+						"Country": "Australia"
 					},
 					"Metric_Type_Counts": {
 						"Total_Item_Investigations": 1,
@@ -101,8 +101,8 @@
 					"Event_Month": "2020-04",
 					"Client_IP": "1.2.3.4",
 					"Country": {
-						"Country_Code": "GB",
-						"Country": "United Kingdom"
+						"Country_Code": "AU",
+						"Country": "Australia"
 					},
 					"Metric_Type_Counts": {
 						"Total_Item_Investigations": 2,

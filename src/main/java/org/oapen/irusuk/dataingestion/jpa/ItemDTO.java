@@ -33,7 +33,11 @@ public class ItemDTO extends Item {
 	
     @ManyToMany(
     	fetch = FetchType.EAGER, // Eager, because there are only a few.	
-    	cascade = {CascadeType.PERSIST,CascadeType.MERGE}
+    	cascade = {CascadeType.PERSIST,CascadeType.MERGE} 
+    	/* 
+    	 * TODO Does @ManyToMany remove all entries and reinserts the remaining ones?
+    	 * 		It should, or we could never replace entries.
+    	 */
     )
     @JoinTable(name = "item_funder",
         joinColumns = @JoinColumn(name = "item_id"),

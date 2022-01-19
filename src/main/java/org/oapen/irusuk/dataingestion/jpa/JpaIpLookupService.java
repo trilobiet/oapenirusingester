@@ -53,6 +53,7 @@ public class JpaIpLookupService implements IpLookupService<IpLocationDTO> {
 			logger.info("Loaded {} ip addresses in memory.", ipMap.size());
 		}
 		catch (DataAccessException e) {
+			logger.error("Could not load ip addresses in memory: {}", e.getMostSpecificCause());
 			return false;
 		}
 		return true;

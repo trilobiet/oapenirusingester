@@ -109,6 +109,9 @@ public class ReportItemToDTOMapper implements ToPersistableEntitiesMapper<ItemDT
 				eventDTO.setCity(cutOff(iploc.getCity(), 255));
 				eventDTO.setLatitude(iploc.getLatitude());
 				eventDTO.setLongitude(iploc.getLongitude());
+				// Now overwrite country and country code with more reliable data
+				eventDTO.setCountry(cutOff(iploc.getCountry(),255));
+				eventDTO.setCountryCode(cutOff(iploc.getCountryCode(),2));
 			}	
 		}	
 		

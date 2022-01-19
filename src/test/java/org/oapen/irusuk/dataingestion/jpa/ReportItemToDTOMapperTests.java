@@ -70,7 +70,7 @@ public class ReportItemToDTOMapperTests {
 		
 		// System.out.println(eventDTOs.get(0));
 		
-		assertEquals("Italy", eventDTOs.get(0).getCountry());
+		assertEquals("Australia", eventDTOs.get(0).getCountry());
 		assertEquals(itemDTO.getId(), eventDTOs.get(0).getItemId());
 		
 		// System.out.println(eventDTOs);
