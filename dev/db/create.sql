@@ -27,19 +27,35 @@ CREATE TABLE `event` (
   `ip` varchar(40) NOT NULL,
   `date` date NOT NULL,
   `country` varchar(255) DEFAULT NULL,
-  `country_code` varchar(2) DEFAULT NULL,
+  `country_code` varchar(2) NOT NULL,
   `city` varchar(255) DEFAULT NULL,
-  `latitude` double DEFAULT NULL,
-  `longitude` double DEFAULT NULL,
+  `latitude` double NOT NULL DEFAULT '0',
+  `longitude` double NOT NULL DEFAULT '0',
   `requests` int DEFAULT '0',
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `inetAton` varchar(2) DEFAULT NULL,
+  `inetAton` bigint DEFAULT NULL,
   PRIMARY KEY (`item_id`,`ip`,`date`),
-  KEY `fk_event_1_idx` (`item_id`,`latitude`,`longitude`,`ip`,`date`),
+  KEY `fk_event_1_idx` (`item_id`,`ip`,`date`,`country_code`,`latitude`,`longitude`),
   CONSTRAINT `fk_event_1` FOREIGN KEY (`item_id`) REFERENCES `item` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
+  new.inetAton = inet_aton(new.ip) */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `funder`
@@ -136,9 +152,10 @@ CREATE TABLE `library_ips` (
   `library_id` varchar(36) NOT NULL,
   `ip1` varchar(40) NOT NULL,
   `ip2` varchar(40) NOT NULL,
-  `ip1a` bigint DEFAULT NULL,
-  `ip2a` bigint DEFAULT NULL,
-  PRIMARY KEY (`library_id`,`ip1`,`ip2`)
+  `ip1a` bigint NOT NULL,
+  `ip2a` bigint NOT NULL,
+  PRIMARY KEY (`library_id`,`ip1`,`ip2`),
+  KEY `IDX` (`ip1a`,`ip2a`,`library_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -150,7 +167,7 @@ CREATE TABLE `library_ips` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`83.163.15.48`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `library_ips` FOR EACH ROW SET 
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `library_ips` FOR EACH ROW SET 
   new.ip1a = inet_aton(new.ip1),
   new.ip2a = inet_aton(new.ip2) */;;
 DELIMITER ;
@@ -187,4 +204,4 @@ CREATE TABLE `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-04 21:45:08
+-- Dump completed on 2022-02-09 21:25:55
