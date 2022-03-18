@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.27, for Linux (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.28, for Linux (x86_64)
 --
 -- Host: 104.248.34.253    Database: irusuk
 -- ------------------------------------------------------
@@ -56,6 +56,22 @@ CREATE TABLE `event` (
   CONSTRAINT `fk_event_1` FOREIGN KEY (`item_id`) REFERENCES `item` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`83.163.15.48`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
+  new.inetAton = if( is_ipv4(new.ip), inet_aton(new.ip), 0 ) */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `funder`
@@ -158,6 +174,23 @@ CREATE TABLE `library_ips` (
   KEY `IDX` (`ip1a`,`ip2a`,`library_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8mb4 */ ;
+/*!50003 SET character_set_results = utf8mb4 */ ;
+/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`83.163.15.48`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `library_ips` FOR EACH ROW SET 
+  new.ip1a = inet_aton(new.ip1),
+  new.ip2a = inet_aton(new.ip2) */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `user`
@@ -168,9 +201,10 @@ DROP TABLE IF EXISTS `user`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `user` (
   `id` varchar(36) NOT NULL,
+  `password` varchar(45) DEFAULT NULL,
   `name` varchar(255) NOT NULL,
-  `role` enum('funder','publisher','library') NOT NULL,
-  `irusId` varchar(36) DEFAULT NULL,
+  `role` enum('funder','publisher','library','admin') NOT NULL,
+  `irus_id` varchar(369) DEFAULT NULL,
   `lat` double DEFAULT '0',
   `lon` double DEFAULT '0',
   `country_code` varchar(30) DEFAULT NULL,
@@ -187,4 +221,4 @@ CREATE TABLE `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-18 15:22:06
+-- Dump completed on 2022-03-15 16:16:30
