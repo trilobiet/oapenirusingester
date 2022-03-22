@@ -200,15 +200,19 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `user` (
-  `id` varchar(36) NOT NULL,
-  `password` varchar(45) DEFAULT NULL,
-  `name` varchar(255) NOT NULL,
+  `id` char(36) NOT NULL DEFAULT (uuid()),
+  `username` varchar(45) NOT NULL,
+  `password` varchar(255) DEFAULT '',
   `role` enum('funder','publisher','library','admin') NOT NULL,
+  `fullname` varchar(255) NOT NULL,
   `irus_id` varchar(369) DEFAULT NULL,
+  `country_code` varchar(30) DEFAULT NULL,
   `lat` double DEFAULT '0',
   `lon` double DEFAULT '0',
-  `country_code` varchar(30) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  `editable` tinyint NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`),
+  UNIQUE KEY `username_UNIQUE` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -221,4 +225,4 @@ CREATE TABLE `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-03-15 16:16:30
+-- Dump completed on 2022-03-22  9:52:28
