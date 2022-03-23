@@ -11,6 +11,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * IRUS-UK API JSON representation for 'Performance_Instances' list entry
+ * This is what is called an 'Event' elsewhere in this application 
+ * 
  * @author acdhirr
  *
  */
