@@ -99,7 +99,7 @@ DROP TABLE IF EXISTS `ip_range`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `ip_range` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `user_id` varchar(36) NOT NULL,
+  `user_id` varchar(36) DEFAULT NULL,
   `ip_start` varchar(40) NOT NULL,
   `ip_end` varchar(40) NOT NULL,
   `ip_start_aton` bigint NOT NULL,
@@ -108,8 +108,8 @@ CREATE TABLE `ip_range` (
   UNIQUE KEY `id_UNIQUE` (`id`),
   UNIQUE KEY `ips_user_id_unique` (`user_id`,`ip_start`,`ip_end`),
   KEY `IDX` (`ip_start_aton`,`ip_end_aton`,`user_id`),
-  CONSTRAINT `fk_ip_range_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  CONSTRAINT `fk_ip_range_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=184 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -204,18 +204,18 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `user` (
-  `id` char(36) NOT NULL DEFAULT (uuid()),
+  `id` char(36) NOT NULL,
   `username` varchar(45) NOT NULL,
-  `password` varchar(255) DEFAULT '',
+  `password` varchar(255) NOT NULL DEFAULT '',
   `role` enum('funder','publisher','library','admin') NOT NULL,
   `fullname` varchar(255) NOT NULL,
   `irus_id` varchar(369) DEFAULT NULL,
-  `country_code` varchar(30) DEFAULT NULL,
-  `lat` double DEFAULT '0',
-  `lon` double DEFAULT '0',
-  `editable` tinyint NOT NULL DEFAULT '0',
+  `country_code` varchar(30) NOT NULL DEFAULT '',
+  `lat` double NOT NULL DEFAULT '0',
+  `lon` double NOT NULL DEFAULT '0',
+  `editable` tinyint NOT NULL DEFAULT '1',
+  `initial_radius` varchar(45) NOT NULL DEFAULT '50',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `id_UNIQUE` (`id`),
   UNIQUE KEY `username_UNIQUE` (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -229,4 +229,4 @@ CREATE TABLE `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-03-23 22:14:09
+-- Dump completed on 2022-04-05 16:21:06
