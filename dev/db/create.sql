@@ -1,6 +1,8 @@
+CREATE DATABASE  IF NOT EXISTS `irusuk` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `irusuk`;
 -- MySQL dump 10.13  Distrib 8.0.28, for Linux (x86_64)
 --
--- Host: 104.248.34.253    Database: irusuk
+-- Host: 0.0.0.0    Database: irusuk
 -- ------------------------------------------------------
 -- Server version	8.0.28-0ubuntu0.20.04.3
 
@@ -65,7 +67,7 @@ CREATE TABLE `event` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`83.163.15.48`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
   new.ip_aton = if( is_ipv4(new.ip), inet_aton(new.ip), 0 ) */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
@@ -109,7 +111,7 @@ CREATE TABLE `ip_range` (
   UNIQUE KEY `ips_user_id_unique` (`user_id`,`ip_start`,`ip_end`),
   KEY `IDX` (`ip_start_aton`,`ip_end_aton`,`user_id`),
   CONSTRAINT `fk_ip_range_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=184 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=191 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
 /*!50003 SET @saved_cs_results     = @@character_set_results */ ;
@@ -120,7 +122,7 @@ CREATE TABLE `ip_range` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`83.163.15.48`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `ip_range` FOR EACH ROW SET 
+/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `ip_range` FOR EACH ROW SET 
   new.ip_start_aton = inet_aton(new.ip_start),
   new.ip_end_aton = inet_aton(new.ip_end) */;;
 DELIMITER ;
@@ -229,4 +231,4 @@ CREATE TABLE `user` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-05 16:21:06
+-- Dump completed on 2022-04-14 17:26:30

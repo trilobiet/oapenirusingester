@@ -35,8 +35,7 @@ public class ItemDTO extends Item {
     	fetch = FetchType.EAGER, // Eager, because there are only a few.	
     	cascade = {CascadeType.PERSIST,CascadeType.MERGE} 
     	/* 
-    	 * TODO Does @ManyToMany remove all entries and reinserts the remaining ones?
-    	 * 		It should, or we could never replace entries.
+    	 * Does @ManyToMany remove all entries and reinserts the remaining ones?
     	 */
     )
     @JoinTable(name = "item_funder",
