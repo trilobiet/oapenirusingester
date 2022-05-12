@@ -211,7 +211,7 @@ CREATE TABLE `user` (
   `password` varchar(255) NOT NULL DEFAULT '',
   `role` enum('funder','publisher','library','admin') NOT NULL,
   `fullname` varchar(255) NOT NULL,
-  `irus_id` varchar(369) DEFAULT NULL,
+  `irus_id` varchar(2048) DEFAULT NULL,
   `country_code` varchar(30) NOT NULL DEFAULT '',
   `lat` double NOT NULL DEFAULT '0',
   `lon` double NOT NULL DEFAULT '0',
