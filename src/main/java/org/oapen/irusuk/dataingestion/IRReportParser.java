@@ -131,6 +131,12 @@ public class IRReportParser {
 	}
 	
 	
+	/**
+	 * When parsing the next item fails, parsing continues, but a warning is issued.
+	 * This warning states the id of the last successfully parsed item before the failure, 
+	 * so as to facilitate looking up by hand the faulty item when inspecting the 
+	 * harvested json file.    
+	 */
 	private Optional<ReportItem> parseItem(JsonParser parser) throws IOException {
 		
 		Optional<ReportItem> oReportItem = Optional.empty();
@@ -139,7 +145,7 @@ public class IRReportParser {
 			oReportItem = Optional.of(mapper.readValue(parser, ReportItem.class));
 		} catch (JsonProcessingException e) {
 			logger.error("Error occured while parsing an Item: {}", e.getMessage());
-			logger.warn("Last succesfully parsed Item is {}", lastSuccessfullyParsedItemId);
+			logger.warn("Previously successfully parsed Item is {}", lastSuccessfullyParsedItemId);
 		}
 		return oReportItem;
 	}
