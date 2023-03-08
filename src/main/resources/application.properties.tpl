@@ -12,7 +12,7 @@ spring.datasource.url=jdbc:mysql://<yourhost>:3306/irusuk?reconnect=true&rewrite
 spring.datasource.username=*******
 spring.datasource.password=*******
 
-irusuk.baseurl=https://irus.jisc.ac.uk/api/oapen/reports/oapen_ir/
+irusuk.baseurl=https://irus.jisc.ac.uk/api/v3/oapen/reports/oapen_ir/
 irusuk.requestorid=********************************
 irusuk.apikey=********************************
 irusuk.platform=***
