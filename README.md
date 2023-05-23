@@ -39,6 +39,13 @@ Use JVM argument `-Xmx1G` to specify a maximum heap size of 1G.
 You may also set this as a permanent java option in `/etc/environment`:  
 `_JAVA_OPTIONS=-Xmx1G`
 
+
+## IP database updates
+
+Regular updates (2-4 / year) can be downloaded from <https://lite.ip2location.com/database-download>  
+See `/dev/db/ipdb.import.mysql.txt` for update instructions
+
+
 ## Documentation
 [Java docs](https://trilobiet.github.io/oapenirusingester/)
 
