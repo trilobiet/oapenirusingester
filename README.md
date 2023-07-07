@@ -34,10 +34,10 @@ ip location table in a binary search tree).
 To speed things up, ip lookup service loads all ip addresses from database in memory.
 Be sure to increase Java heap size when OutOfMemoryErrors occur.
 
-Use JVM argument `-Xmx1G` to specify a maximum heap size of 1G.
+Use JVM argument `-Xmx2G` to specify a maximum heap size of 2G.
 
 You may also set this as a permanent java option in `/etc/environment`:  
-`_JAVA_OPTIONS=-Xmx1G`
+`_JAVA_OPTIONS=-Xmx2G`
 
 
 ## IP database updates
