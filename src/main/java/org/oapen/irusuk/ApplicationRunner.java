@@ -78,6 +78,8 @@ public class ApplicationRunner implements CommandLineRunner {
 		String action = "";
 		
 		if (args.length > 0) action = args[0];
+		
+		logger.info("Max JVM memory (MB): " + Runtime.getRuntime().maxMemory()/(1024L * 1024L));
 
 		if (action.equals("harvest")) harvest();
 		else if (action.equals("ingest")) ingest();

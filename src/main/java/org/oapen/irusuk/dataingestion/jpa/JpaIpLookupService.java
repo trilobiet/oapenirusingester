@@ -49,12 +49,24 @@ public class JpaIpLookupService implements IpLookupService<IpLocationDTO> {
 				logger.debug("Loading ip address page {} of {}.", page, pages);
 				repo.findAll(pg).stream().forEach(ip -> ipMap.put(ip.getIp(), ip));
 			}
+
 			
 			logger.info("Loaded {} ip addresses in memory.", ipMap.size());
 		}
 		catch (DataAccessException e) {
 			logger.error("Could not load ip addresses in memory: {}", e.getMostSpecificCause());
 			return false;
+		}
+		catch (OutOfMemoryError e) {
+			// Agreed, this is kind of rude.
+			logger.error(e.getMessage());
+			logger.error("-------------------------------------------------------------------------");
+			logger.error("!!!!ATTN!!!! Java Heap Space too small. Increase Heap Space (e.g. -Xmx2G)");
+			logger.error("FORCING SHUTDOWN - No work has been done!"                                );
+			logger.error("-------------------------------------------------------------------------");
+			logger.error("Max JVM memory (MB): " + Runtime.getRuntime().maxMemory()/(1024L * 1024L));
+			
+			System.exit(1);
 		}
 		return true;
 	}

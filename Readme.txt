@@ -22,3 +22,14 @@ To ingest (parse downloaded file) call
 
 Log files should report a failure on ingestion every day, 
 except on the day following ingestion of a new harvest.    
+
+
+As a cronjob:
+==========================
+> su oapen
+> crontab -e
+
+0 1 * * * ~/dashboard/irus-ingester.jar harvest >/dev/null 2>&1
+0 2 * * * ~/dashboard/irus-ingester.jar ingest >/dev/null 2>&1
+
+(daily at 01:00 resp 02:00)
