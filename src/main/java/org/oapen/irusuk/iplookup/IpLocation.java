@@ -13,8 +13,8 @@ public class IpLocation {
 	private String country;
 	private String countryCode;
 	private String city;
-	private Double latitude;
-	private Double longitude;
+	private Float latitude;
+	private Float longitude;
 	
 	public Long getIp() {
 		return ip;
@@ -32,11 +32,11 @@ public class IpLocation {
 		return city;
 	}
 	
-	public Double getLatitude() {
+	public Float getLatitude() {
 		return latitude;
 	}
 	
-	public Double getLongitude() {
+	public Float getLongitude() {
 		return longitude;
 	}
 	
@@ -56,11 +56,11 @@ public class IpLocation {
 		this.city = city;
 	}
 	
-	public void setLatitude(Double latitude) {
+	public void setLatitude(Float latitude) {
 		this.latitude = latitude;
 	}
 	
-	public void setLongitude(Double longitude) {
+	public void setLongitude(Float longitude) {
 		this.longitude = longitude;
 	}
 

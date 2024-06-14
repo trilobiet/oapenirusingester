@@ -33,7 +33,7 @@ public class EventDTO extends Event  {
 	
 	private String country, countryCode;
 	private String city;
-	private Double latitude, longitude;
+	private Float latitude, longitude;
 	private Integer requests;
 	
 	public String getIp() {
@@ -60,11 +60,11 @@ public class EventDTO extends Event  {
 		return city;
 	}
 
-	public Double getLatitude() {
+	public Float getLatitude() {
 		return latitude;
 	}
 
-	public Double getLongitude() {
+	public Float getLongitude() {
 		return longitude;
 	}
 
@@ -96,11 +96,11 @@ public class EventDTO extends Event  {
 		this.city = city;
 	}
 
-	public void setLatitude(Double latitude) {
+	public void setLatitude(Float latitude) {
 		this.latitude = latitude;
 	}
 
-	public void setLongitude(Double longitude) {
+	public void setLongitude(Float longitude) {
 		this.longitude = longitude;
 	}
 

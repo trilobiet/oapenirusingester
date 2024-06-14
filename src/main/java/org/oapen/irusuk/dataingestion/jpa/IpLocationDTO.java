@@ -34,9 +34,9 @@ public class IpLocationDTO extends IpLocation implements Serializable {
 	@Column(name="CITY")
 	private String city;
 	@Column(name="LATITUDE")
-	private Double latitude;
+	private Float latitude;
 	@Column(name="LONGITUDE")
-	private Double longitude;
+	private Float longitude;
 	
 	public Long getIp() {
 		return ip;
@@ -54,11 +54,11 @@ public class IpLocationDTO extends IpLocation implements Serializable {
 		return city;
 	}
 	
-	public Double getLatitude() {
+	public Float getLatitude() {
 		return latitude;
 	}
 	
-	public Double getLongitude() {
+	public Float getLongitude() {
 		return longitude;
 	}
 	
