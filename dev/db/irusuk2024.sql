@@ -55,7 +55,8 @@ CREATE TABLE `event` (
   `intlon` smallint GENERATED ALWAYS AS (truncate(`longitude`,0)) STORED,
   `intlat` smallint GENERATED ALWAYS AS (truncate(`latitude`,0)) STORED,
   `year` smallint GENERATED ALWAYS AS (year(`date`)) STORED,
-  `yearmonth` smallint GENERATED ALWAYS AS ((((year(`date`) - 2000) * 100) + month(`date`))) STORED,
+  /* yearmonth as smallint results in out of range errors... why? no clue. */ 
+  `yearmonth` int GENERATED ALWAYS AS ((((year(`date`) - 2000) * 100) + month(`date`))) STORED,
   PRIMARY KEY (`item_id`,`ip`,`date`),
   KEY `idx_event_country_code` (`country_code`),
   KEY `idx_event_itm` (`item_id`),
