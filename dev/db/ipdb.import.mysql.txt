@@ -1,8 +1,9 @@
 
 /* 
-	DB can be downloaded from
-  	https://lite.ip2location.com/database-download
-  	Type: DB5.LITE
+	Ip2Location DB can be downloaded from
+  	https://ip2location.com/database/lite
+  	Name: IP2LOCATION-LITE-DB5.CSV.ZIP
+  	Type: DB5LITECSV 
 */ 	
    
  
@@ -24,14 +25,18 @@ CREATE TABLE `iplocation_tmp` (
 /* 2: Do this to allow for reading local files */
 SET GLOBAL local_infile=1;
 
-/* 3: Make sure line ends are unix style (open in Kate editor, tools -> end of line */
+/* 3: Make sure line ends are unix style (open in Kate editor, tools -> end of line; 
+      Replace the local path below with the actual path. 
+*/
 LOAD DATA LOCAL INFILE '/home/acdhirr/Desktop/OAPEN2020/dashboard/IpDB/lite.ip2location.com/202209/IP2LOCATION-LITE-DB5.CSV' 
 INTO TABLE iplocation_tmp 
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n';
 
-/* 4: rename table to iplocation */
+/* 4: Rename table 'iplocation' to 'iplocation.bak_xxxxxx' (for archiving)
+      Rename table 'iplocation_tmp' to 'iplocation' 
+*/
 
 
 /*

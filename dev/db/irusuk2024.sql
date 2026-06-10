@@ -88,7 +88,7 @@ CREATE TABLE `event` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `before_insert_event` BEFORE INSERT ON `event` FOR EACH ROW SET 
 	new.ip_aton = if( is_ipv4(new.ip), inet_aton(new.ip), 0 ),
     new.ipsr16 = if( is_ipv4(new.ip), inet_aton(new.ip) >> 16, 0 ) */;;
 DELIMITER ;
@@ -213,7 +213,7 @@ CREATE TABLE `ip_range` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`trilobiet`@`localhost`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `ip_range` FOR EACH ROW SET 
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `before_insert_library_ips` BEFORE INSERT ON `ip_range` FOR EACH ROW SET 
   new.ip_start_aton = inet_aton(new.ip_start),
   new.ip_end_aton = inet_aton(new.ip_end) */;;
 DELIMITER ;
@@ -446,7 +446,7 @@ CREATE TABLE `user` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`45.80.169.103` FUNCTION `intersect`(
+CREATE DEFINER=`root`@`localhost` FUNCTION `intersect`(
 	set1 VARCHAR(1024),
     set2 VARCHAR(1024)
 ) RETURNS tinyint(1)
@@ -470,7 +470,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `event_count_per_country`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `event_count_per_country`(
 
     in startDate DATE,	
     in endDate DATE,
@@ -522,7 +522,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `event_count_per_region`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `event_count_per_region`(
 
     in startDate DATE,	
     in endDate DATE,
@@ -596,7 +596,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_country`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_country`(
 	in fromDate DATE,				# query for this month (and all 11 months before) 
     in publisherIds VARCHAR(1024),	# one or more comma separated publisher id's
     in funderIds VARCHAR(1024),		# one or more comma separated funder id's
@@ -670,7 +670,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_country_OLD`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_country_OLD`(
 	in fromDate DATE,				# query for this month (and all 11 months before) 
     in publisherIds VARCHAR(1024),	# one or more comma separated publisher id's
     in funderIds VARCHAR(1024),		# one or more comma separated funder id's
@@ -738,7 +738,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_item_for_library`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_item_for_library`(
     
     in fromDate DATE,				# query for this month (and all 11 months before) 
 	in libraryId VARCHAR(36),		# library id (from user table)
@@ -853,7 +853,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_item_for_library_OLD`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_item_for_library_OLD`(
     
     in fromDate DATE,				# query for this month (and all 11 months before) 
 	in libraryId VARCHAR(36),		# library id (from user table)
@@ -943,7 +943,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_item_for_pubfun`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_item_for_pubfun`(
 	in fromDate DATE,				# query for this month (and all 11 months before) 
     in publisherIds VARCHAR(1024),	# one or more comma separated publisher id's
     in funderIds VARCHAR(1024),		# one or more comma separated funder id's
@@ -1018,7 +1018,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_item_for_region`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_item_for_region`(
 	
     in fromDate DATE,				# query for this month (and all 11 months before) 
     in lat DOUBLE,					# query in an area defined by a geo location ... 
@@ -1125,7 +1125,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-CREATE DEFINER=`trilobiet`@`localhost` PROCEDURE `month_totals_per_item_for_region_OLD`(
+CREATE DEFINER=`root`@`localhost` PROCEDURE `month_totals_per_item_for_region_OLD`(
 	
     in fromDate DATE,				# query for this month (and all 11 months before) 
     in lat DOUBLE,					# query in an area defined by a geo location ... 
@@ -1226,7 +1226,7 @@ DELIMITER ;
 /*!50001 SET character_set_results     = utf8mb4 */;
 /*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`trilobiet`@`localhost` SQL SECURITY DEFINER */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `events_all_data` AS select `event`.`ip` AS `ip`,`event`.`date` AS `date`,`event`.`country` AS `country`,`event`.`country_code` AS `country_code`,`event`.`city` AS `city`,`event`.`longitude` AS `longitude`,`event`.`latitude` AS `latitude`,`event`.`requests` AS `requests`,`event`.`ip_aton` AS `ip_aton`,`item`.`id` AS `item_id`,`item`.`title` AS `title`,`item`.`publisher_id` AS `publisher_id`,`item`.`publisher_name` AS `publisher_name`,`item`.`authors` AS `authors`,`item`.`doi` AS `doi`,`item`.`isbn` AS `isbn`,`item`.`type` AS `type`,`item`.`year` AS `year`,`item`.`grant_number` AS `grant_number`,`item`.`grant_program` AS `grant_program`,`funder`.`id` AS `funder_id`,`funder`.`name` AS `funder_name` from ((`event` join `item` on((`event`.`item_id` = `item`.`id`))) left join (`item_funder` join `funder` on((`item_funder`.`funder_id` = `funder`.`id`))) on((`item_funder`.`item_id` = `item`.`id`))) */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
@@ -1244,7 +1244,7 @@ DELIMITER ;
 /*!50001 SET character_set_results     = utf8mb4 */;
 /*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`trilobiet`@`localhost` SQL SECURITY DEFINER */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `events_all_data_coarse_coords` AS select `event`.`ip` AS `ip`,`event`.`date` AS `date`,`event`.`country` AS `country`,`event`.`country_code` AS `country_code`,`event`.`city` AS `city`,round(`event`.`longitude`,1) AS `longitude`,round(`event`.`latitude`,1) AS `latitude`,`event`.`requests` AS `requests`,`event`.`ip_aton` AS `ip_aton`,`item`.`id` AS `item_id`,`item`.`title` AS `title`,`item`.`publisher_id` AS `publisher_id`,`item`.`publisher_name` AS `publisher_name`,`item`.`authors` AS `authors`,`item`.`doi` AS `doi`,`item`.`isbn` AS `isbn`,`item`.`type` AS `type`,`item`.`year` AS `year`,`item`.`grant_number` AS `grant_number`,`item`.`grant_program` AS `grant_program`,`funder`.`id` AS `funder_id`,`funder`.`name` AS `funder_name` from ((`event` join `item` on((`event`.`item_id` = `item`.`id`))) left join (`item_funder` join `funder` on((`item_funder`.`funder_id` = `funder`.`id`))) on((`item_funder`.`item_id` = `item`.`id`))) */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
@@ -1262,7 +1262,7 @@ DELIMITER ;
 /*!50001 SET character_set_results     = utf8mb4 */;
 /*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
-/*!50013 DEFINER=`trilobiet`@`45.80.169.103` SQL SECURITY DEFINER */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `item_complete` AS select `item`.`id` AS `id`,`item`.`title` AS `title`,`item`.`publisher_name` AS `publisher_name`,`item`.`publisher_id` AS `publisher_id`,`item`.`authors` AS `authors`,`item`.`doi` AS `doi`,`item`.`isbn` AS `isbn`,`item`.`type` AS `type`,`item`.`year` AS `year`,`item`.`grant_number` AS `grant_number`,`item`.`grant_program` AS `grant_program`,`item`.`platform` AS `platform`,`item`.`irus_id` AS `irus_id`,`item`.`updated_at` AS `updated_at`,`item`.`created_at` AS `created_at`,group_concat(`item_funder`.`funder_id` separator ',') AS `funder_ids` from (`item` left join `item_funder` on((`item_funder`.`item_id` = `item`.`id`))) group by `item`.`id` */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;

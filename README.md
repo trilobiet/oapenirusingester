@@ -42,8 +42,8 @@ You may also set this as a permanent java option in `/etc/environment`:
 
 ## IP database updates
 
-Regular updates (2-4 / year) can be downloaded from <https://lite.ip2location.com/database-download>  
-See `/dev/db/ipdb.import.mysql.txt` for update instructions
+Regular updates (2-4 / year) can be downloaded from <https://www.ip2location.com/database/lite>  
+See `./dev/db/ipdb.import.mysql.txt` for update instructions
 
 
 ## Documentation
